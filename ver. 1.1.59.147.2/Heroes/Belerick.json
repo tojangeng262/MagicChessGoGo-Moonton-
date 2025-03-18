@@ -1,0 +1,53 @@
+{
+    "hero": {
+        "name": "Belerick",
+        "cost": 3
+    },
+    "skill": {
+        "name": "Nature's Strike",
+        "description": "Belerick empowers his next Basic ATK to deal (+200%Total Magic ATK) Magle DMG to the target and recovers 8% of his lost HP, then gains 40% ATK Speed for 5s."
+    },
+    "skill attribute": {
+        "star_level_1": {
+            "Attack Speed": "40%",
+            "Magic Bonus": "200%"
+        },
+        "star_level_2": {
+            "Attack Speed": "45%",
+            "Magic Bonus": "200%"
+        },
+        "star_level_3": {
+            "Attack Speed": "60%",
+            "Magic Bonus": "300%"
+        }
+    },
+    "attributes": {
+        "star_level_1": {
+            "HP": 2842,
+            "Physical ATK": 135,
+            "Magic ATK": 135,
+            "Attack Speed": 0.65,
+            "Attack Range": 1,
+            "Initial Mana Cap": 25,
+            "Mana Cap": 50
+        },
+        "star_level_2": {
+            "HP": 5116,
+            "Physical ATK": 205,
+            "Magic ATK": 205,
+            "Attack Speed": 0.65,
+            "Attack Range": 1,
+            "Initial Mana Cap": 25,
+            "Mana Cap": 50
+        },
+        "star_level_3": {
+            "HP": 10231,
+            "Physical ATK": 305,
+            "Magic ATK": 305,
+            "Attack Speed": 0.65,
+            "Attack Range": 1,
+            "Initial Mana Cap": 25,
+            "Mana Cap": 50
+        }
+    }
+}

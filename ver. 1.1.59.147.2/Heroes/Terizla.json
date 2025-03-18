@@ -1,0 +1,53 @@
+{
+    "hero": {
+        "name": "Terizla",
+        "cost": 4
+    },
+    "skill": {
+        "name": "Penalty Zone",
+        "description": "Terizla leaps up and slams down forcefully, dealing (+240% Total Physical ATK) Physical DMG to adjacent enemies and knocking them Airborne for 0.6s, while gaining a Shield equal to 16% of his Max HP for 4s."
+    },
+    "skill attribute": {
+        "star_level_1": {
+            "Percentage Shield": "16%",
+            "Physical Bonus": "240%"
+        },
+        "star_level_2": {
+            "Percentage Shield": "18%",
+            "Physical Bonus": "240%"
+        },
+        "star_level_3": {
+            "Percentage Shield": "30%",
+            "Physical Bonus": "690%"
+        }
+    },
+    "attributes": {
+        "star_level_1": {
+            "HP": "3496",
+            "Physical ATK": "180",
+            "Magic ATK": "180",
+            "Attack Speed": "0.75",
+            "Attack Range": "1",
+            "Initial Mana Cap": "75",
+            "Mana Cap": "75"
+        },
+        "star_level_2": {
+            "HP": "6293",
+            "Physical ATK": "270",
+            "Magic ATK": "270",
+            "Attack Speed": "0.75",
+            "Attack Range": "1",
+            "Initial Mana Cap": "75",
+            "Mana Cap": "75"
+        },
+        "star_level_3": {
+            "HP": "13634",
+            "Physical ATK": "405",
+            "Magic ATK": "405",
+            "Attack Speed": "0.75",
+            "Attack Range": "1",
+            "Initial Mana Cap": "75",
+            "Mana Cap": "75"
+        }
+    }
+}

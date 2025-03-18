@@ -1,0 +1,53 @@
+{
+    "hero": {
+        "name": "Minsitthar",
+        "cost": 2
+    },
+    "skill": {
+        "name": "Shield Assault",
+        "description": "Minsitthar enters Phalanx state for 3s, reducing damage taken by 20% and enhancing his next 4 Basic Attacks, each dealing (+190% Total Physical ATK) damage to the target and the enemy 1 tile behind."
+    },
+    "skill attribute": {
+        "star_level_1": {
+            "Damage Reduction": "20%",
+            "Physical Bonus": "190%"
+        },
+        "star_level_2": {
+            "Damage Reduction": "40%",
+            "Physical Bonus": "190%"
+        },
+        "star_level_3": {
+            "Damage Reduction": "60%",
+            "Physical Bonus": "250%"
+        }
+    },
+    "attributes": {
+        "star_level_1": {
+            "HP": "2024",
+            "Physical ATK": "120",
+            "Magic ATK": "120",
+            "Attack Speed": "0.75",
+            "Attack Range": "1",
+            "Initial Mana Cap": "50",
+            "Mana Cap": "75"
+        },
+        "star_level_2": {
+            "HP": "3643",
+            "Physical ATK": "180",
+            "Magic ATK": "180",
+            "Attack Speed": "0.75",
+            "Attack Range": "1",
+            "Initial Mana Cap": "50",
+            "Mana Cap": "75"
+        },
+        "star_level_3": {
+            "HP": "6922",
+            "Physical ATK": "270",
+            "Magic ATK": "270",
+            "Attack Speed": "0.75",
+            "Attack Range": "1",
+            "Initial Mana Cap": "50",
+            "Mana Cap": "75"
+        }
+    }
+}

@@ -1,0 +1,53 @@
+{
+    "hero": {
+        "name": "Dyrroth",
+        "cost": 2
+    },
+    "skill": {
+        "name": "Wrath of the Abyss",
+        "description": "Passive: After every 3 Basic ATKs, the next Basic ATK will become a Circle Strike, dealling (+140% Total Physical ATK) Physical DMG to adjacent enemies and reducing their HP Regen by 30% for 4s. The Circle Strike also grants Dyrroth 100 Hybrid DEF for 2.5s."
+    },
+    "skill attribute": {
+        "star_level_1": {
+            "Physical Bonus": "140%",
+            "Extra Hybrid DEF": "100"
+        },
+        "star_level_2": {
+            "Physical Bonus": "150%",
+            "Extra Hybrid DEF": "120"
+        },
+        "star_level_3": {
+            "Physical Bonus": "200%",
+            "Extra Hybrid DEF": "130"
+        }
+    },
+    "attributes": {
+        "star_level_1": {
+            "HP": "1923",
+            "Physical ATK": "120",
+            "Magic ATK": "120",
+            "Attack Speed": "0.75",
+            "Attack Range": "1",
+            "Initial Mana Cap": "0",
+            "Mana Cap": "0"
+        },
+        "star_level_2": {
+            "HP": "3461",
+            "Physical ATK": "180",
+            "Magic ATK": "180",
+            "Attack Speed": "0.75",
+            "Attack Range": "1",
+            "Initial Mana Cap": "0",
+            "Mana Cap": "0"
+        },
+        "star_level_3": {
+            "HP": "6576",
+            "Physical ATK": "270",
+            "Magic ATK": "270",
+            "Attack Speed": "0.75",
+            "Attack Range": "1",
+            "Initial Mana Cap": "0",
+            "Mana Cap": "0"
+        }
+    }
+}

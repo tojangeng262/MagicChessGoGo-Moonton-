@@ -1,0 +1,50 @@
+{
+    "hero": {
+        "name": "Chang'e",
+        "cost": 3
+    },
+    "skill": {
+        "name": "Starmoon Shockwave",
+        "description": "Chang'e sends 5 energy spheres to the target, each dealing (+260%Total Magic ATK) Magic DMG. The spheres will spread out when they hit the target and continue to fly, dealing damage to enemies behind the target."
+    },
+    "skill attribute": {
+        "star_level_1": {
+            "Magic Bonus": "260%"
+        },
+        "star_level_2": {
+            "Magic Bonus": "260%"
+        },
+        "star_level_3": {
+            "Magic Bonus": "360%"
+        }
+    },
+    "attributes": {
+        "star_level_1": {
+            "HP": 2170,
+            "Physical ATK": 110,
+            "Magic ATK": 110,
+            "Attack Speed": 0.75,
+            "Attack Range": 4,
+            "Initial Mana Cap": 50,
+            "Mana Cap": 100
+        },
+        "star_level_2": {
+            "HP": 3906,
+            "Physical ATK": 165,
+            "Magic ATK": 165,
+            "Attack Speed": 0.75,
+            "Attack Range": 4,
+            "Initial Mana Cap": 50,
+            "Mana Cap": 100
+        },
+        "star_level_3": {
+            "HP": 7812,
+            "Physical ATK": 250,
+            "Magic ATK": 250,
+            "Attack Speed": 0.75,
+            "Attack Range": 4,
+            "Initial Mana Cap": 50,
+            "Mana Cap": 100
+        }
+    }
+}

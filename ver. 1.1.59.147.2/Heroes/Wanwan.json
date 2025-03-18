@@ -1,0 +1,50 @@
+{
+    "hero": {
+        "name": "Wanwan",
+        "cost": 1
+    },
+    "skill": {
+        "name": "Tiger Pace",
+        "description": "Enemy heroes hit by Wanwan's attacks 3 times will have their weaknesses and positions exposed. Wanwan can deal an extra (+65% Total Physical ATK) damage with her Basic ATKS. Passive: Enemies with exposed weakness will enter a vulnerable state, taking"
+    },
+    "skill attribute": {
+        "star_level_1": {
+            "Physical Bonus": "65%"
+        },
+        "star_level_2": {
+            "Physical Bonus": "70%"
+        },
+        "star_level_3": {
+            "Physical Bonus": "100%"
+        }
+    },
+    "attributes": {
+        "star_level_1": {
+            "HP": 1550,
+            "Physical ATK": 100,
+            "Magic ATK": 100,
+            "Attack Speed": 0.8,
+            "Attack Range": 4,
+            "Initial Mana Cap": 0,
+            "Mana Cap": 0
+        },
+        "star_level_2": {
+            "HP": 2790,
+            "Physical ATK": 150,
+            "Magic ATK": 150,
+            "Attack Speed": 0.8,
+            "Attack Range": 4,
+            "Initial Mana Cap": 0,
+            "Mana Cap": 0
+        },
+        "star_level_3": {
+            "HP": 5301,
+            "Physical ATK": 225,
+            "Magic ATK": 225,
+            "Attack Speed": 0.8,
+            "Attack Range": 4,
+            "Initial Mana Cap": 0,
+            "Mana Cap": 0
+        }
+    }
+}

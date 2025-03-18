@@ -1,0 +1,56 @@
+{
+    "hero": {
+        "name": "Alice",
+        "cost": 3
+    },
+    "skill": {
+        "name": "Blood Awe",
+        "description": "Alice deals (+220% Total Magic ATK) Magic DMG to enemies on adjacent tiles and recovers 415 + (+100% Total Magic ATK) HP."
+    },
+    "skill attribute": {
+        "star_level_1": {
+            "Magic Bonus": "220%",
+            "HP Regen": 415,
+            "Mana Regen Bonus": "100%"
+        },
+        "star_level_2": {
+            "Magic Bonus": "220%",
+            "HP Regen": 700,
+            "Mana Regen Bonus": "100%"
+        },
+        "star_level_3": {
+            "Magic Bonus": "410%",
+            "HP Regen": 1100,
+            "Mana Regen Bonus": "100%"
+        }
+    },
+    "attributes": {
+        "star_level_1": {
+            "HP": 3013,
+            "Physical ATK": 135,
+            "Magic ATK": 135,
+            "Attack Speed": 0.65,
+            "Attack Range": 1,
+            "Initial Mana Cap": 75,
+            "Mana Cap": 75
+        },
+        "star_level_2": {
+            "HP": 5423,
+            "Physical ATK": 205,
+            "Magic ATK": 205,
+            "Attack Speed": 0.65,
+            "Attack Range": 1,
+            "Initial Mana Cap": 75,
+            "Mana Cap": 75
+        },
+        "star_level_3": {
+            "HP": 10845,
+            "Physical ATK": 305,
+            "Magic ATK": 305,
+            "Attack Speed": 0.65,
+            "Attack Range": 1,
+            "Initial Mana Cap": 75,
+            "Mana Cap": 75
+        }
+    }
+}

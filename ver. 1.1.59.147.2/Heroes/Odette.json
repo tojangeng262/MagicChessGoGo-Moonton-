@@ -1,0 +1,50 @@
+{
+    "hero": {
+        "name": "Odette",
+        "cost": 1
+    },
+    "skill": {
+        "name": "Avian Authority",
+        "description": "Odette releases a magic swan in the target direction, dealing (+270% Total Magic ATK) Magic DMG to enemies hit. Passive: When the battle begins, restore Mana of herself and the allies to her right and left by 15."
+    },
+    "skill attribute": {
+        "star_level_1": {
+            "Magic Bonus": "270%"
+        },
+        "star_level_2": {
+            "Magic Bonus": "300%"
+        },
+        "star_level_3": {
+            "Magic Bonus": "420%"
+        }
+    },
+    "attributes": {
+        "star_level_1": {
+            "HP": 1550,
+            "Physical ATK": 85,
+            "Magic ATK": 85,
+            "Attack Speed": 0.75,
+            "Attack Range": 4,
+            "Initial Mana Cap": 25,
+            "Mana Cap": 50
+        },
+        "star_level_2": {
+            "HP": 2790,
+            "Physical ATK": 130,
+            "Magic ATK": 130,
+            "Attack Speed": 0.75,
+            "Attack Range": 4,
+            "Initial Mana Cap": 25,
+            "Mana Cap": 50
+        },
+        "star_level_3": {
+            "HP": 5301,
+            "Physical ATK": 190,
+            "Magic ATK": 190,
+            "Attack Speed": 0.75,
+            "Attack Range": 4,
+            "Initial Mana Cap": 25,
+            "Mana Cap": 50
+        }
+    }
+}

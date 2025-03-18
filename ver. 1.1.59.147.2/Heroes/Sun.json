@@ -1,0 +1,50 @@
+{
+    "hero": {
+        "name": "Sun",
+        "cost": 5
+    },
+    "skill": {
+        "name": "Clone Techniques",
+        "description": "Sun summons 2 Doppelgangers that inherit 100% of his attributes and take 90% extra damage. (Magic Crystal Equipment and Magic Crystals have no effect on Doppelgangers, and a max of 2 Doppelgangers can exist at the same time.)\nPassive: 3-Star Sun's Basic Attacks reduce the enemy's Physical DEF by 30."
+    },
+    "skill attribute": {
+        "star_level_1": {
+            "Extra DMG Taken": "90%"
+        },
+        "star_level_2": {
+            "Extra DMG Taken": "90%"
+        },
+        "star_level_3": {
+            "Extra DMG Taken": "80%"
+        }
+    },
+    "attributes": {
+        "star_level_1": {
+            "HP": 3624,
+            "Physical ATK": 245,
+            "Magic ATK": 245,
+            "Attack Speed": 0.65,
+            "Attack Range": 1,
+            "Initial Mana Cap": 100,
+            "Mana Cap": 125
+        },
+        "star_level_2": {
+            "HP": 6522,
+            "Physical ATK": 370,
+            "Magic ATK": 370,
+            "Attack Speed": 0.65,
+            "Attack Range": 1,
+            "Initial Mana Cap": 100,
+            "Mana Cap": 125
+        },
+        "star_level_3": {
+            "HP": 18842,
+            "Physical ATK": 550,
+            "Magic ATK": 550,
+            "Attack Speed": 0.65,
+            "Attack Range": 1,
+            "Initial Mana Cap": 50,
+            "Mana Cap": 125
+        }
+    }
+}

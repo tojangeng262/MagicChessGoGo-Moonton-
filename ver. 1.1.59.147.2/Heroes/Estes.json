@@ -1,0 +1,50 @@
+{
+    "hero": {
+        "name": "Estes",
+        "cost": 1
+    },
+    "skill": {
+        "name": "Moonlight Immersion",
+        "description": "Estes restores (+300% Total Magic ATK) HP to himself and the ally with the lowest HP."
+    },
+    "skill attribute": {
+        "star_level_1": {
+            "Mana Regen Bonus": "300%"
+        },
+        "star_level_2": {
+            "Mana Regen Bonus": "300%"
+        },
+        "star_level_3": {
+            "Mana Regen Bonus": "550%"
+        }
+    },
+    "attributes": {
+        "star_level_1": {
+            "HP": 1550,
+            "Physical ATK": 85,
+            "Magic ATK": 85,
+            "Attack Speed": 0.75,
+            "Attack Range": 3,
+            "Initial Mana Cap": 50,
+            "Mana Cap": 50
+        },
+        "star_level_2": {
+            "HP": 2790,
+            "Physical ATK": 130,
+            "Magic ATK": 130,
+            "Attack Speed": 0.75,
+            "Attack Range": 3,
+            "Initial Mana Cap": 50,
+            "Mana Cap": 50
+        },
+        "star_level_3": {
+            "HP": 5301,
+            "Physical ATK": 190,
+            "Magic ATK": 190,
+            "Attack Speed": 0.75,
+            "Attack Range": 3,
+            "Initial Mana Cap": 50,
+            "Mana Cap": 50
+        }
+    }
+}

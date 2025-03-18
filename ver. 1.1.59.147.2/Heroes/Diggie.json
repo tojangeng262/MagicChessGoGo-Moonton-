@@ -1,0 +1,53 @@
+{
+    "hero": {
+        "name": "Diggie",
+        "cost": 2
+    },
+    "skill": {
+        "name": "Auto Alarm Bomb",
+        "description": "Diggie throws an owl alarm clock at the current target, dealing (+300% Total Magic ATK) Magic DMG to enemies on adjacent tiles and reducing their Magic DEF by 12."
+    },
+    "skill attribute": {
+        "star_level_1": {
+            "Magic Bonus": "300%",
+            "Magic DEF Reduction": 12
+        },
+        "star_level_2": {
+            "Magic Bonus": "300%",
+            "Magic DEF Reduction": 24
+        },
+        "star_level_3": {
+            "Magic Bonus": "400%",
+            "Magic DEF Reduction": 36
+        }
+    },
+    "attributes": {
+        "star_level_1": {
+            "HP": 1705,
+            "Physical ATK": 95,
+            "Magic ATK": 95,
+            "Attack Speed": 0.75,
+            "Attack Range": 4,
+            "Initial Mana Cap": 50,
+            "Mana Cap": 50
+        },
+        "star_level_2": {
+            "HP": 3069,
+            "Physical ATK": 145,
+            "Magic ATK": 145,
+            "Attack Speed": 0.75,
+            "Attack Range": 4,
+            "Initial Mana Cap": 50,
+            "Mana Cap": 50
+        },
+        "star_level_3": {
+            "HP": 5831,
+            "Physical ATK": 215,
+            "Magic ATK": 215,
+            "Attack Speed": 0.75,
+            "Attack Range": 4,
+            "Initial Mana Cap": 50,
+            "Mana Cap": 50
+        }
+    }
+}

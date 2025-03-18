@@ -1,0 +1,53 @@
+{
+    "hero": {
+        "name": "Mathilda",
+        "cost": 2
+    },
+    "skill": {
+        "name": "Guiding Wind",
+        "description": "Mathilda provides 20% extra ATK Speed to 2 nearby allied heroes for 3s, and releases 2 wisps to deal damage equal to (+440% Total Magic ATK) of Magic ATK to enemies hit."
+    },
+    "skill attribute": {
+        "star_level_1": {
+            "Attack Speed Boost": "20%",
+            "Magic Bonus": "440%"
+        },
+        "star_level_2": {
+            "Attack Speed Boost": "30%",
+            "Magic Bonus": "440%"
+        },
+        "star_level_3": {
+            "Attack Speed Boost": "80%",
+            "Magic Bonus": "620%"
+        }
+    },
+    "attributes": {
+        "star_level_1": {
+            "HP": "1705",
+            "Physical ATK": "95",
+            "Magic ATK": "95",
+            "Attack Speed": "0.75",
+            "Attack Range": "4",
+            "Initial Mana Cap": "50",
+            "Mana Cap": "75"
+        },
+        "star_level_2": {
+            "HP": "3069",
+            "Physical ATK": "145",
+            "Magic ATK": "145",
+            "Attack Speed": "0.75",
+            "Attack Range": "4",
+            "Initial Mana Cap": "50",
+            "Mana Cap": "75"
+        },
+        "star_level_3": {
+            "HP": "5831",
+            "Physical ATK": "215",
+            "Magic ATK": "215",
+            "Attack Speed": "0.75",
+            "Attack Range": "4",
+            "Initial Mana Cap": "50",
+            "Mana Cap": "75"
+        }
+    }
+}

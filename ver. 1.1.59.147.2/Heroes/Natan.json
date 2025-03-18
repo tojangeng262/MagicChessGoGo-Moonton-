@@ -1,0 +1,53 @@
+{
+    "hero": {
+        "name": "Natan",
+        "cost": 5
+    },
+    "skill": {
+        "name": "Superposition",
+        "description": "Natan launches a projectile with Basic ATK, dealing (+90% Total Magic ATK) Magic DMG to enemies in Its path. The projectiles will return after Natan casts the skill, increasing 10% all damage dealt to enemies by him."
+    },
+    "skill attribute": {
+        "star_level_1": {
+            "Extra Damage": "10%",
+            "Magic Bonus": "90%"
+        },
+        "star_level_2": {
+            "Extra Damage": "20%",
+            "Magic Bonus": "100%"
+        },
+        "star_level_3": {
+            "Extra Damage": "220%",
+            "Magic Bonus": "120%"
+        }
+    },
+    "attributes": {
+        "star_level_1": {
+            "HP": 3565,
+            "Physical ATK": 220,
+            "Magic ATK": 220,
+            "Attack Speed": 0.8,
+            "Attack Range": 6,
+            "Initial Mana Cap": 75,
+            "Mana Cap": 100
+        },
+        "star_level_2": {
+            "HP": 6417,
+            "Physical ATK": 330,
+            "Magic ATK": 330,
+            "Attack Speed": 0.8,
+            "Attack Range": 6,
+            "Initial Mana Cap": 75,
+            "Mana Cap": 100
+        },
+        "star_level_3": {
+            "HP": 18538,
+            "Physical ATK": 495,
+            "Magic ATK": 495,
+            "Attack Speed": 0.8,
+            "Attack Range": 6,
+            "Initial Mana Cap": 25,
+            "Mana Cap": 100
+        }
+    }
+}

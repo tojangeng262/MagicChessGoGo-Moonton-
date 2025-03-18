@@ -1,0 +1,53 @@
+{
+    "hero": {
+        "name": "X.Borg",
+        "cost": 2
+    },
+    "skill": {
+        "name": "Fire Missiles",
+        "description": "X.Borg unleashes his flamethrower, continuously dealing (+85% Total Physical ATK) Physical DMG over 3s in the target direction. He also gains a Shield equal to 8% Max HP."
+    },
+    "skill attribute": {
+        "star_level_1": {
+            "Percentage Shield": "8%",
+            "Physical Bonus": "85%"
+        },
+        "star_level_2": {
+            "Percentage Shield": "8%",
+            "Physical Bonus": "85%"
+        },
+        "star_level_3": {
+            "Percentage Shield": "10%",
+            "Physical Bonus": "115%"
+        }
+    },
+    "attributes": {
+        "star_level_1": {
+            "HP": 2024,
+            "Physical ATK": 120,
+            "Magic ATK": 120,
+            "Attack Speed": 0.75,
+            "Attack Range": 1,
+            "Initial Mana Cap": 50,
+            "Mana Cap": 75
+        },
+        "star_level_2": {
+            "HP": 3643,
+            "Physical ATK": 180,
+            "Magic ATK": 180,
+            "Attack Speed": 0.75,
+            "Attack Range": 1,
+            "Initial Mana Cap": 50,
+            "Mana Cap": 75
+        },
+        "star_level_3": {
+            "HP": 6922,
+            "Physical ATK": 270,
+            "Magic ATK": 270,
+            "Attack Speed": 0.75,
+            "Attack Range": 1,
+            "Initial Mana Cap": 50,
+            "Mana Cap": 75
+        }
+    }
+}

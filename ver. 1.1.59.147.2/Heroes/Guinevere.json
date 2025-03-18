@@ -1,0 +1,53 @@
+{
+    "hero": {
+        "name": "Guinevere",
+        "cost": 4
+    },
+    "skill": {
+        "name": "Super Magic",
+        "description": "Guinevere launches an enhanced Basic ATK, dealing (+400% Total Magic ATK) Magic DMG to the target and recovering (+110% Total Magic ATK) HP."
+    },
+    "skill attribute": {
+        "star_level_1": {
+            "Magic Bonus": "400%",
+            "Mana Regen Bonus": "110%"
+        },
+        "star_level_2": {
+            "Magic Bonus": "400%",
+            "Mana Regen Bonus": "130%"
+        },
+        "star_level_3": {
+            "Magic Bonus": "1100%",
+            "Mana Regen Bonus": "200%"
+        }
+    },
+    "attributes": {
+        "star_level_1": {
+            "HP": 3496,
+            "Physical ATK": 180,
+            "Magic ATK": 180,
+            "Attack Speed": 0.75,
+            "Attack Range": 1,
+            "Initial Mana Cap": 50,
+            "Mana Cap": 50
+        },
+        "star_level_2": {
+            "HP": 6293,
+            "Physical ATK": 270,
+            "Magic ATK": 270,
+            "Attack Speed": 0.75,
+            "Attack Range": 1,
+            "Initial Mana Cap": 50,
+            "Mana Cap": 50
+        },
+        "star_level_3": {
+            "HP": 13634,
+            "Physical ATK": 405,
+            "Magic ATK": 405,
+            "Attack Speed": 0.75,
+            "Attack Range": 1,
+            "Initial Mana Cap": 50,
+            "Mana Cap": 50
+        }
+    }
+}

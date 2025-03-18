@@ -1,0 +1,50 @@
+{
+    "hero": {
+        "name": "Silvanna",
+        "cost": 2
+    },
+    "skill": {
+        "name": "Knightess' Resolve",
+        "description": "Silvanna's attacks steal 6 Hybrid DEF from the target, up to 5 stacks."
+    },
+    "skill attribute": {
+        "star_level_1": {
+            "Steal Hybrid DEF": 6
+        },
+        "star_level_2": {
+            "Steal Hybrid DEF": 10
+        },
+        "star_level_3": {
+            "Steal Hybrid DEF": 18
+        }
+    },
+    "attributes": {
+        "star_level_1": {
+            "HP": 2024,
+            "Physical ATK": 120,
+            "Magic ATK": 120,
+            "Attack Speed": 0.75,
+            "Attack Range": 1,
+            "Initial Mana Cap": 0,
+            "Mana Cap": 0
+        },
+        "star_level_2": {
+            "HP": 3643,
+            "Physical ATK": 180,
+            "Magic ATK": 180,
+            "Attack Speed": 0.75,
+            "Attack Range": 1,
+            "Initial Mana Cap": 0,
+            "Mana Cap": 0
+        },
+        "star_level_3": {
+            "HP": 6922,
+            "Physical ATK": 270,
+            "Magic ATK": 270,
+            "Attack Speed": 0.75,
+            "Attack Range": 1,
+            "Initial Mana Cap": 0,
+            "Mana Cap": 0
+        }
+    }
+}

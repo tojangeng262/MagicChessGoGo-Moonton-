@@ -1,0 +1,56 @@
+{
+    "hero": {
+        "name": "Thamuz",
+        "cost": 4
+    },
+    "skill": {
+        "name": "Cauterant Inferno",
+        "description": "Thamuz unleashes the lava stored in his body, gaining 90% ATK Speed. His Basic Attacks deal (+100%Total Physical ATK) additional Physical DMG for 9s."
+    },
+    "skill attribute": {
+        "star_level_1": {
+            "Attack Speed": "90%",
+            "Duration": "9",
+            "Physical Bonus": "100%"
+        },
+        "star_level_2": {
+            "Attack Speed": "90%",
+            "Duration": "10",
+            "Physical Bonus": "110%"
+        },
+        "star_level_3": {
+            "Attack Speed": "200%",
+            "Duration": "12",
+            "Physical Bonus": "225%"
+        }
+    },
+    "attributes": {
+        "star_level_1": {
+            "HP": "3706",
+            "Physical ATK": "180",
+            "Magic ATK": "180",
+            "Attack Speed": "0.75",
+            "Attack Range": "1",
+            "Initial Mana Cap": "25",
+            "Mana Cap": "75"
+        },
+        "star_level_2": {
+            "HP": "6670",
+            "Physical ATK": "270",
+            "Magic ATK": "270",
+            "Attack Speed": "0.75",
+            "Attack Range": "1",
+            "Initial Mana Cap": "25",
+            "Mana Cap": "75"
+        },
+        "star_level_3": {
+            "HP": "14452",
+            "Physical ATK": "410",
+            "Magic ATK": "410",
+            "Attack Speed": "0.75",
+            "Attack Range": "1",
+            "Initial Mana Cap": "25",
+            "Mana Cap": "75"
+        }
+    }
+}

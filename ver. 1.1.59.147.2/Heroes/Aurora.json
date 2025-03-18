@@ -1,0 +1,50 @@
+{
+    "hero": {
+        "name": "Aurora",
+        "cost": 5
+    },
+    "skill": {
+        "name": "Hailstone Blast",
+        "description": "Aurora summons an icy meteorite to strike at the location with the most enemies, dealing (+110% Total Magic ATK) Magic DMG 6 times within medium range."
+    },
+    "skill attribute": {
+        "star_level_1": {
+            "Magic Bonus": "110%"
+        },
+        "star_level_2": {
+            "Magic Bonus": "110%"
+        },
+        "star_level_3": {
+            "Magic Bonus": "520%"
+        }
+    },
+    "attributes": {
+        "star_level_1": {
+            "HP": 3565,
+            "Physical ATK": 185,
+            "Magic ATK": 185,
+            "Attack Speed": "0.75",
+            "Attack Range": 4,
+            "Initial Mana Cap": 75,
+            "Mana Cap": 100
+        },
+        "star_level_2": {
+            "HP": 6417,
+            "Physical ATK": 280,
+            "Magic ATK": 280,
+            "Attack Speed": "0.75",
+            "Attack Range": 4,
+            "Initial Mana Cap": 75,
+            "Mana Cap": 100
+        },
+        "star_level_3": {
+            "HP": 18538,
+            "Physical ATK": 415,
+            "Magic ATK": 415,
+            "Attack Speed": "0.75",
+            "Attack Range": 4,
+            "Initial Mana Cap": 25,
+            "Mana Cap": 100
+        }
+    }
+}

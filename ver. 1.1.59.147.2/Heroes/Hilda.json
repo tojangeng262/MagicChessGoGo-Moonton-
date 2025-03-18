@@ -1,0 +1,53 @@
+{
+    "hero": {
+        "name": "Hilda",
+        "cost": 3
+    },
+    "skill": {
+        "name": "Power of Wildness",
+        "description": "Hilda launches a powerful slash, dealing (+810% Total Physical ATK) Physical DMG to the target and (+90% Total Physical ATK) Physical DMG to adjacent enemies, while also gaining a Shield equal to 18% of her Max HP that lasts for 4s."
+    },
+    "skill attribute": {
+        "star_level_1": {
+            "Shield": "18%",
+            "Physical Bonus": "90%"
+        },
+        "star_level_2": {
+            "Shield": "18%",
+            "Physical Bonus": "90%"
+        },
+        "star_level_3": {
+            "Shield": "20%",
+            "Physical Bonus": "125%"
+        }
+    },
+    "attributes": {
+        "star_level_1": {
+            "HP": 2842,
+            "Physical ATK": 135,
+            "Magic ATK": 135,
+            "Attack Speed": 0.65,
+            "Attack Range": 1,
+            "Initial Mana Cap": 75,
+            "Mana Cap": 75
+        },
+        "star_level_2": {
+            "HP": 5116,
+            "Physical ATK": 205,
+            "Magic ATK": 205,
+            "Attack Speed": 0.65,
+            "Attack Range": 1,
+            "Initial Mana Cap": 75,
+            "Mana Cap": 75
+        },
+        "star_level_3": {
+            "HP": 10231,
+            "Physical ATK": 305,
+            "Magic ATK": 305,
+            "Attack Speed": 0.65,
+            "Attack Range": 1,
+            "Initial Mana Cap": 75,
+            "Mana Cap": 75
+        }
+    }
+}

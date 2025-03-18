@@ -1,0 +1,53 @@
+{
+    "hero": {
+        "name": "Leomord",
+        "cost": 5
+    },
+    "skill": {
+        "name": "Phantom Steed",
+        "description": "Leomord enters a mounted state, increasing his ATK Speed by 25% and enhancing his Basic ATKs to hit in a circular area. While mounted, using skills empowers his next Basic ATK to deal (+240%Total Physical ATK) Physical DMG to enemies within medium range."
+    },
+    "skill attribute": {
+        "star_level_1": {
+            "Attack Speed": "25%",
+            "Physical Bonus": "240%"
+        },
+        "star_level_2": {
+            "Attack Speed": "30%",
+            "Physical Bonus": "260%"
+        },
+        "star_level_3": {
+            "Attack Speed": "100%",
+            "Physical Bonus": "1000%"
+        }
+    },
+    "attributes": {
+        "star_level_1": {
+            "HP": 4048,
+            "Physical ATK": 255,
+            "Magic ATK": 255,
+            "Attack Speed": 0.75,
+            "Attack Range": 1,
+            "Initial Mana Cap": 25,
+            "Mana Cap": 75
+        },
+        "star_level_2": {
+            "HP": 7286,
+            "Physical ATK": 385,
+            "Magic ATK": 385,
+            "Attack Speed": 0.75,
+            "Attack Range": 1,
+            "Initial Mana Cap": 25,
+            "Mana Cap": 75
+        },
+        "star_level_3": {
+            "HP": 21050,
+            "Physical ATK": 620,
+            "Magic ATK": 620,
+            "Attack Speed": 0.75,
+            "Attack Range": 1,
+            "Initial Mana Cap": 25,
+            "Mana Cap": 75
+        }
+    }
+}

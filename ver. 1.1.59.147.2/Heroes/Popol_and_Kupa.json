@@ -1,0 +1,50 @@
+{
+    "hero": {
+        "name": "Popol and Kupa",
+        "cost": 3
+    },
+    "skill": {
+        "name": "I Need You, Kupa!",
+        "description": "Popol prays intently to call Kupa to the battlefield, who will leave in 4s. After 3 consecutive attacks, Kupa unleashes 3 rapid blows, each dealing (+135% Total Physical ATK) Physical DMG."
+    },
+    "skill attribute": {
+        "star_level_1": {
+            "Physical Bonus": "135%"
+        },
+        "star_level_2": {
+            "Physical Bonus": "155%"
+        },
+        "star_level_3": {
+            "Physical Bonus": "260%"
+        }
+    },
+    "attributes": {
+        "star_level_1": {
+            "HP": 2170,
+            "Physical ATK": 130,
+            "Magic ATK": 130,
+            "Attack Speed": 0.8,
+            "Attack Range": 4,
+            "Initial Mana Cap": 50,
+            "Mana Cap": 75
+        },
+        "star_level_2": {
+            "HP": 3906,
+            "Physical ATK": 195,
+            "Magic ATK": 195,
+            "Attack Speed": 0.8,
+            "Attack Range": 4,
+            "Initial Mana Cap": 50,
+            "Mana Cap": 75
+        },
+        "star_level_3": {
+            "HP": 7812,
+            "Physical ATK": 295,
+            "Magic ATK": 295,
+            "Attack Speed": 0.8,
+            "Attack Range": 4,
+            "Initial Mana Cap": 50,
+            "Mana Cap": 75
+        }
+    }
+}

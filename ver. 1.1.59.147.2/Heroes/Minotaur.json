@@ -1,0 +1,53 @@
+{
+    "hero": {
+        "name": "Minotaur",
+        "cost": 5
+    },
+    "skill": {
+        "name": "Minoan Fury",
+        "description": "Minotaur hammers the ground 3 times, sending shockwaves that deal (+90% Total Physical ATK) Pimsical DMG to enemies within a large area and reduces their Movement Speed by 70% for 2s for the first two strikes. The final shockwave deals (+180% Total Physical ATK) Physical DMG and knocks targets airborne for 1s. Minotaur is immune to CC while casting this"
+    },
+    "skill attribute": {
+        "star_level_1": {
+            "Total Physical Bonus": "180%",
+            "Percentage HP Regen": "2%"
+        },
+        "star_level_2": {
+            "Total Physical Bonus": "200%",
+            "Percentage HP Regen": "2%"
+        },
+        "star_level_3": {
+            "Total Physical Bonus": "620%",
+            "Percentage HP Regen": "5%"
+        }
+    },
+    "attributes": {
+        "star_level_1": {
+            "HP": 4476,
+            "Physical ATK": 230,
+            "Magic ATK": 230,
+            "Attack Speed": 0.65,
+            "Attack Range": 1,
+            "Initial Mana Cap": 100,
+            "Mana Cap": 125
+        },
+        "star_level_2": {
+            "HP": 8057,
+            "Physical ATK": 345,
+            "Magic ATK": 345,
+            "Attack Speed": 0.65,
+            "Attack Range": 1,
+            "Initial Mana Cap": 100,
+            "Mana Cap": 125
+        },
+        "star_level_3": {
+            "HP": 23276,
+            "Physical ATK": 520,
+            "Magic ATK": 520,
+            "Attack Speed": 0.65,
+            "Attack Range": 1,
+            "Initial Mana Cap": 50,
+            "Mana Cap": 125
+        }
+    }
+}

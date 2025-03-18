@@ -1,0 +1,56 @@
+{
+    "hero": {
+        "name": "Yin",
+        "cost": 3
+    },
+    "skill": {
+        "name": "Frenzy Strike",
+        "description": "Yin turns into Lieh state, gaining Control Immunity and smashing the front within 3 tiles in a line 4 times, each smash dealing (+90%Total Physical ATK) Physical DMG to enemies hit. Yin also gains a Shield equal to 18% of Max HP for 4s. Passive: Launching a Basic ATK has a 50% chance of enhancing his next"
+    },
+    "skill attribute": {
+        "star_level_1": {
+            "Percentage Shield": "18%",
+            "Physical Bonus": "90%",
+            "Enhanced Basic ATK Bonus": "160%"
+        },
+        "star_level_2": {
+            "Percentage Shield": "18%",
+            "Physical Bonus": "90%",
+            "Enhanced Basic ATK Bonus": "160%"
+        },
+        "star_level_3": {
+            "Percentage Shield": "20%",
+            "Physical Bonus": "150%",
+            "Enhanced Basic ATK Bonus": "200%"
+        }
+    },
+    "attributes": {
+        "star_level_1": {
+            "HP": "2576",
+            "Physical ATK": "145",
+            "Magic ATK": "145",
+            "Attack Speed": "0.75",
+            "Attack Range": "1",
+            "Initial Mana Cap": "75",
+            "Mana Cap": "75"
+        },
+        "star_level_2": {
+            "HP": "4637",
+            "Physical ATK": "220",
+            "Magic ATK": "220",
+            "Attack Speed": "0.75",
+            "Attack Range": "1",
+            "Initial Mana Cap": "75",
+            "Mana Cap": "75"
+        },
+        "star_level_3": {
+            "HP": "9274",
+            "Physical ATK": "325",
+            "Magic ATK": "325",
+            "Attack Speed": "0.75",
+            "Attack Range": "1",
+            "Initial Mana Cap": "75",
+            "Mana Cap": "75"
+        }
+    }
+}

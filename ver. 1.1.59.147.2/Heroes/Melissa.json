@@ -1,0 +1,50 @@
+{
+    "hero": {
+        "name": "Melissa",
+        "cost": 4
+    },
+    "skill": {
+        "name": "Eyes on You!",
+        "description": "Melissa summons Muddles near her, lasting 6s. Muddles links Melissa's current target and another enemy, causing every Basic Attack from Melissa to deal 50% damage to both targets linked to Muddles. Muddles Inherits 100% of Melissa's attributes, including those gained from Equipment. During this time, Melissa's Attack Speed increases by 50%."
+    },
+    "skill attribute": {
+        "star_level_1": {
+            "Attack Speed Bonus": "50%"
+        },
+        "star_level_2": {
+            "Attack Speed Bonus": "55%"
+        },
+        "star_level_3": {
+            "Attack Speed Bonus": "180%"
+        }
+    },
+    "attributes": {
+        "star_level_1": {
+            "HP": "3100",
+            "Physical ATK": "155",
+            "Magic ATK": "155",
+            "Attack Speed": "0.8",
+            "Attack Range": "4",
+            "Initial Mana Cap": "75",
+            "Mana Cap": "100"
+        },
+        "star_level_2": {
+            "HP": "5580",
+            "Physical ATK": "235",
+            "Magic ATK": "235",
+            "Attack Speed": "0.8",
+            "Attack Range": "4",
+            "Initial Mana Cap": "75",
+            "Mana Cap": "100"
+        },
+        "star_level_3": {
+            "HP": "12090",
+            "Physical ATK": "370",
+            "Magic ATK": "370",
+            "Attack Speed": "0.8",
+            "Attack Range": "4",
+            "Initial Mana Cap": "75",
+            "Mana Cap": "100"
+        }
+    }
+}

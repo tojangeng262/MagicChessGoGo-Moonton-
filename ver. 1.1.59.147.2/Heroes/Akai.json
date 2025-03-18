@@ -1,0 +1,56 @@
+{
+    "hero": {
+        "name": "Akai",
+        "cost": 2
+    },
+    "skill": {
+        "name": "Body Slam",
+        "description": "Akai slams the ground, dealing (+260% Total Physical ATK) Physical DMG to adjacent enemies while gaining a Shield equal to 240 +5% of his Max HP."
+    },
+    "skill attribute": {
+        "star_level_1": {
+            "Shield": "240",
+            "Shield Bonus": "5%",
+            "Physical Bonus": "260%"
+        },
+        "star_level_2": {
+            "Shield": "350",
+            "Shield Bonus": "5%",
+            "Physical Bonus": "260%"
+        },
+        "star_level_3": {
+            "Shield": "800",
+            "Shield Bonus": "9%",
+            "Physical Bonus": "350%"
+        }
+    },
+    "attributes": {
+        "star_level_1": {
+            "HP": "2121",
+            "Physical ATK": "115",
+            "Magic ATK": "115",
+            "Attack Speed": "0.65",
+            "Attack Range": "1",
+            "Initial Mana Cap": "50",
+            "Mana Cap": "75"
+        },
+        "star_level_2": {
+            "HP": "3818",
+            "Physical ATK": "175",
+            "Magic ATK": "175",
+            "Attack Speed": "0.65",
+            "Attack Range": "1",
+            "Initial Mana Cap": "50",
+            "Mana Cap": "75"
+        },
+        "star_level_3": {
+            "HP": "7255",
+            "Physical ATK": "260",
+            "Magic ATK": "260",
+            "Attack Speed": "0.65",
+            "Attack Range": "1",
+            "Initial Mana Cap": "50",
+            "Mana Cap": "75"
+        }
+    }
+}

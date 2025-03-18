@@ -1,0 +1,50 @@
+{
+    "hero": {
+        "name": "Joy",
+        "cost": 2
+    },
+    "skill": {
+        "name": "Ha, Electrifying Beats!",
+        "description": "Joy deals 8 instances of (+75%Total Magic ATK) Magic DMG to enemies on adjacent tiles."
+    },
+    "skill attribute": {
+        "star_level_1": {
+            "Magic Bonus": "75%"
+        },
+        "star_level_2": {
+            "Magic Bonus": "75%"
+        },
+        "star_level_3": {
+            "Magic Bonus": "95%"
+        }
+    },
+    "attributes": {
+        "star_level_1": {
+            "HP": "2024",
+            "Physical ATK": "120",
+            "Magic ATK": "120",
+            "Attack Speed": "0.75",
+            "Attack Range": "1",
+            "Initial Mana Cap": "50",
+            "Mana Cap": "75"
+        },
+        "star_level_2": {
+            "HP": "3643",
+            "Physical ATK": "180",
+            "Magic ATK": "180",
+            "Attack Speed": "0.75",
+            "Attack Range": "1",
+            "Initial Mana Cap": "50",
+            "Mana Cap": "75"
+        },
+        "star_level_3": {
+            "HP": "6922",
+            "Physical ATK": "270",
+            "Magic ATK": "270",
+            "Attack Speed": "0.75",
+            "Attack Range": "1",
+            "Initial Mana Cap": "50",
+            "Mana Cap": "75"
+        }
+    }
+}

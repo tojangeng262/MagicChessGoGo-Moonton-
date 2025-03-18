@@ -1,0 +1,53 @@
+{
+    "hero": {
+        "name": "Martis",
+        "cost": 2
+    },
+    "skill": {
+        "name": "Decimation",
+        "description": "Martis deals (+365% Total Physical ATK) Physical DMG to the target and gains a Shield equal to 10% of his Max HP for 4s."
+    },
+    "skill attribute": {
+        "star_level_1": {
+            "Shield": "10%",
+            "Physical Bonus": "365%"
+        },
+        "star_level_2": {
+            "Shield": "10%",
+            "Physical Bonus": "365%"
+        },
+        "star_level_3": {
+            "Shield": "15%",
+            "Physical Bonus": "450%"
+        }
+    },
+    "attributes": {
+        "star_level_1": {
+            "HP": "2024",
+            "Physical ATK": "130",
+            "Magic ATK": "130",
+            "Attack Speed": "0.75",
+            "Attack Range": "1",
+            "Initial Mana Cap": "50",
+            "Mana Cap": "50"
+        },
+        "star_level_2": {
+            "HP": "3643",
+            "Physical ATK": "195",
+            "Magic ATK": "195",
+            "Attack Speed": "0.75",
+            "Attack Range": "1",
+            "Initial Mana Cap": "50",
+            "Mana Cap": "50"
+        },
+        "star_level_3": {
+            "HP": "6922",
+            "Physical ATK": "295",
+            "Magic ATK": "295",
+            "Attack Speed": "0.75",
+            "Attack Range": "1",
+            "Initial Mana Cap": "50",
+            "Mana Cap": "50"
+        }
+    }
+}

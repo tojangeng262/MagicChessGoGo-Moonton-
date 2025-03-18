@@ -1,0 +1,56 @@
+{
+    "hero": {
+        "name": "Masha",
+        "cost": 2
+    },
+    "skill": {
+        "name": "Northern Brute",
+        "description": "Masha increases the damage for the next 8 Basic ATKs to 160%, gaining 85% extra ATK Speed and 10% Hybrid Lifesteal."
+    },
+    "skill attribute": {
+        "star_level_1": {
+            "Basic ATK Damage": "160%",
+            "Attack Speed Boost": "85%",
+            "Hybrid Lifesteal": "10%"
+        },
+        "star_level_2": {
+            "Basic ATK Damage": "160%",
+            "Attack Speed Boost": "85%",
+            "Hybrid Lifesteal": "10%"
+        },
+        "star_level_3": {
+            "Basic ATK Damage": "200%",
+            "Attack Speed Boost": "165%",
+            "Hybrid Lifesteal": "20%"
+        }
+    },
+    "attributes": {
+        "star_level_1": {
+            "HP": "2024",
+            "Physical ATK": "120",
+            "Magic ATK": "120",
+            "Attack Speed": "0.75",
+            "Attack Range": "1",
+            "Initial Mana Cap": "50",
+            "Mana Cap": "75"
+        },
+        "star_level_2": {
+            "HP": "3643",
+            "Physical ATK": "180",
+            "Magic ATK": "180",
+            "Attack Speed": "0.75",
+            "Attack Range": "1",
+            "Initial Mana Cap": "50",
+            "Mana Cap": "75"
+        },
+        "star_level_3": {
+            "HP": "6922",
+            "Physical ATK": "270",
+            "Magic ATK": "270",
+            "Attack Speed": "0.75",
+            "Attack Range": "1",
+            "Initial Mana Cap": "50",
+            "Mana Cap": "75"
+        }
+    }
+}

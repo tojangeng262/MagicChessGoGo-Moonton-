@@ -1,0 +1,53 @@
+{
+    "hero": {
+        "name": "Lancelot",
+        "cost": 5
+    },
+    "skill": {
+        "name": "Phantom Execution",
+        "description": "Lancelot dashes 3 times, dealing (+70% Total Physical ATK) Physical DMG to enemies along the way. The final dash will always target the enemy unit with the highest power.\nPassive: After each dash, Lancelot increases his damage by 30% for 4s."
+    },
+    "skill attribute": {
+        "star_level_1": {
+            "Physical Bonus": "70%",
+            "Damage Increase": "30%"
+        },
+        "star_level_2": {
+            "Physical Bonus": "70%",
+            "Damage Increase": "35%"
+        },
+        "star_level_3": {
+            "Physical Bonus": "155%",
+            "Damage Increase": "165%"
+        }
+    },
+    "attributes": {
+        "star_level_1": {
+            "HP": "4048",
+            "Physical ATK": "240",
+            "Magic ATK": "240",
+            "Attack Speed": "0.75",
+            "Attack Range": "1",
+            "Initial Mana Cap": "80",
+            "Mana Cap": "80"
+        },
+        "star_level_2": {
+            "HP": "7286",
+            "Physical ATK": "360",
+            "Magic ATK": "360",
+            "Attack Speed": "0.75",
+            "Attack Range": "1",
+            "Initial Mana Cap": "80",
+            "Mana Cap": "80"
+        },
+        "star_level_3": {
+            "HP": "21050",
+            "Physical ATK": "540",
+            "Magic ATK": "540",
+            "Attack Speed": "0.75",
+            "Attack Range": "1",
+            "Initial Mana Cap": "40",
+            "Mana Cap": "80"
+        }
+    }
+}

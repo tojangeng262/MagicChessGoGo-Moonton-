@@ -1,0 +1,50 @@
+{
+    "hero": {
+        "name": "Atlas",
+        "cost": 1
+    },
+    "skill": {
+        "name": "Annihilate",
+        "description": "Passive: Atlas generates Frigid Breath around him. Enemies in the area will have their Attack Speed reduced by 1% every 0.5s (up to 5%)."
+    },
+    "skill attribute": {
+        "star_level_1": {
+            "Attack Speed Reduction": "1%"
+        },
+        "star_level_2": {
+            "Attack Speed Reduction": "2%"
+        },
+        "star_level_3": {
+            "Attack Speed Reduction": "4%"
+        }
+    },
+    "attributes": {
+        "star_level_1": {
+            "HP": 2440,
+            "Physical ATK": 110,
+            "Magic ATK": 110,
+            "Attack Speed": 0.75,
+            "Attack Range": 1,
+            "Initial Mana Cap": 0,
+            "Mana Cap": 0
+        },
+        "star_level_2": {
+            "HP": 4612,
+            "Physical ATK": 165,
+            "Magic ATK": 165,
+            "Attack Speed": 0.75,
+            "Attack Range": 1,
+            "Initial Mana Cap": 0,
+            "Mana Cap": 0
+        },
+        "star_level_3": {
+            "HP": 11293,
+            "Physical ATK": 250,
+            "Magic ATK": 250,
+            "Attack Speed": 0.75,
+            "Attack Range": 1,
+            "Initial Mana Cap": 0,
+            "Mana Cap": 0
+        }
+    }
+}

@@ -1,0 +1,50 @@
+{
+    "hero": {
+        "name": "Kadita",
+        "cost": 4
+    },
+    "skill": {
+        "name": "Ocean Ode",
+        "description": "Kadita transforms into a mermaid and rides waves to assault the enemy, gaining Control Immunity Inside the waves. Having ridden to her destination, Kadita summons a tsunami to crush nearby enemies. Each wave deals (+120%Total Magic ATK) Magic DMC. The tsunami then returns to her, each wave dealing (+120% Total Magic ATK) Magic DMC to enemies on its way."
+    },
+    "skill attribute": {
+        "star_level_1": {
+            "Magic Bonus": "120%"
+        },
+        "star_level_2": {
+            "Magic Bonus": "120%"
+        },
+        "star_level_3": {
+            "Magic Bonus": "250%"
+        }
+    },
+    "attributes": {
+        "star_level_1": {
+            "HP": 3100,
+            "Physical ATK": 140,
+            "Magic ATK": 140,
+            "Attack Speed": 0.75,
+            "Attack Range": 4,
+            "Initial Mana Cap": 100,
+            "Mana Cap": 125
+        },
+        "star_level_2": {
+            "HP": 5580,
+            "Physical ATK": 210,
+            "Magic ATK": 210,
+            "Attack Speed": 0.75,
+            "Attack Range": 4,
+            "Initial Mana Cap": 100,
+            "Mana Cap": 125
+        },
+        "star_level_3": {
+            "HP": 12090,
+            "Physical ATK": 315,
+            "Magic ATK": 315,
+            "Attack Speed": 0.75,
+            "Attack Range": 4,
+            "Initial Mana Cap": 100,
+            "Mana Cap": 125
+        }
+    }
+}

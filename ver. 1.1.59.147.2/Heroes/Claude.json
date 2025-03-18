@@ -1,0 +1,53 @@
+{
+    "hero": {
+        "name": "Claude",
+        "cost": 4
+    },
+    "skill": {
+        "name": "Blazing Duet",
+        "description": "Claude leaves \"Dexter\" in place, then dashes towards his current target and shoots 12 times. Each shot deals (+105%Total Physical ATK) Physical DMG to enemies and can trigger Attack Effects. After the skill ends, Claude will dash back to the position of the \"Dexter\"."
+    },
+    "skill attribute": {
+        "star_level_1": {
+            "No. of Shots": 12,
+            "Physical Bonus": "105%"
+        },
+        "star_level_2": {
+            "No. of Shots": 12,
+            "Physical Bonus": "110%"
+        },
+        "star_level_3": {
+            "No. of Shots": 24,
+            "Physical Bonus": "155%"
+        }
+    },
+    "attributes": {
+        "star_level_1": {
+            "HP": 3100,
+            "Physical ATK": 165,
+            "Magic ATK": 165,
+            "Attack Speed": 0.8,
+            "Attack Range": 4,
+            "Initial Mana Cap": 75,
+            "Mana Cap": 100
+        },
+        "star_level_2": {
+            "HP": 5580,
+            "Physical ATK": 250,
+            "Magic ATK": 250,
+            "Attack Speed": 0.8,
+            "Attack Range": 4,
+            "Initial Mana Cap": 75,
+            "Mana Cap": 100
+        },
+        "star_level_3": {
+            "HP": 12090,
+            "Physical ATK": 370,
+            "Magic ATK": 370,
+            "Attack Speed": 0.8,
+            "Attack Range": 4,
+            "Initial Mana Cap": 75,
+            "Mana Cap": 100
+        }
+    }
+}

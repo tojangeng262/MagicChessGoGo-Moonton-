@@ -1,0 +1,53 @@
+{
+    "hero": {
+        "name": "Johnson",
+        "cost": 3
+    },
+    "skill": {
+        "name": "Impact Wrench",
+        "description": "Johnson throws his Impact Wrench at his current target, dealing (+560%Total Magic ATK) Magic DMG and gaining a Shield equal to 25% of Max HP that lasts 4s."
+    },
+    "skill attribute": {
+        "star_level_1": {
+            "Shield": "25%",
+            "Magic Bonus": "560%"
+        },
+        "star_level_2": {
+            "Shield": "25%",
+            "Magic Bonus": "560%"
+        },
+        "star_level_3": {
+            "Shield": "30%",
+            "Magic Bonus": "790%"
+        }
+    },
+    "attributes": {
+        "star_level_1": {
+            "HP": 3069,
+            "Physical ATK": 135,
+            "Magic ATK": 135,
+            "Attack Speed": 0.65,
+            "Attack Range": 1,
+            "Initial Mana Cap": 75,
+            "Mana Cap": 75
+        },
+        "star_level_2": {
+            "HP": 5525,
+            "Physical ATK": 205,
+            "Magic ATK": 205,
+            "Attack Speed": 0.65,
+            "Attack Range": 1,
+            "Initial Mana Cap": 75,
+            "Mana Cap": 75
+        },
+        "star_level_3": {
+            "HP": 11050,
+            "Physical ATK": 305,
+            "Magic ATK": 305,
+            "Attack Speed": 0.65,
+            "Attack Range": 1,
+            "Initial Mana Cap": 75,
+            "Mana Cap": 75
+        }
+    }
+}

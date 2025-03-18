@@ -1,0 +1,50 @@
+{
+    "hero": {
+        "name": "Vexana",
+        "cost": 4
+    },
+    "skill": {
+        "name": "Eternal Guard",
+        "description": "Vexana summons the Eternal Guard to ravage the battlefield, dealing (+285% Total Magic ATK) Magic DMC to enemies within medium range and knocking them airbome for 0.6s. The Eternal Guard's Basic ATKs deal (+165% Total Magic ATK) Magic DMG."
+    },
+    "skill attribute": {
+        "star_level_1": {
+            "Magic Bonus": "165%"
+        },
+        "star_level_2": {
+            "Magic Bonus": "165%"
+        },
+        "star_level_3": {
+            "Magic Bonus": "460%"
+        }
+    },
+    "attributes": {
+        "star_level_1": {
+            "HP": 3100,
+            "Physical ATK": 140,
+            "Magic ATK": 140,
+            "Attack Speed": 0.75,
+            "Attack Range": 4,
+            "Initial Mana Cap": 100,
+            "Mana Cap": 100
+        },
+        "star_level_2": {
+            "HP": 5580,
+            "Physical ATK": 210,
+            "Magic ATK": 210,
+            "Attack Speed": 0.75,
+            "Attack Range": 4,
+            "Initial Mana Cap": 100,
+            "Mana Cap": 100
+        },
+        "star_level_3": {
+            "HP": 12090,
+            "Physical ATK": 315,
+            "Magic ATK": 315,
+            "Attack Speed": 0.75,
+            "Attack Range": 4,
+            "Initial Mana Cap": 100,
+            "Mana Cap": 100
+        }
+    }
+}

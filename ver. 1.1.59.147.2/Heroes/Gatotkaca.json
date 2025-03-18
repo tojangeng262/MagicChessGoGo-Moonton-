@@ -1,0 +1,56 @@
+{
+    "hero": {
+        "name": "Gatotkaca",
+        "cost": 5
+    },
+    "skill": {
+        "name": "Avatar of the Guardian",
+        "description": "Gatotkaca leaps into the air, then crashes down, dealing (+130% Total Magic ATK) Magic DMC to enemies within medium range and knocking them airborne for 1.2s. He follows up with an empowered Basic ATK, restoring 700 HP and dealing (+435% Total Magic ATK) Magle DMG."
+    },
+    "skill attribute": {
+        "star_level_1": {
+            "Magic Bonus": "130%",
+            "HP Regen": "700",
+            "Enhanced Basic ATK Bonus": "435%"
+        },
+        "star_level_2": {
+            "Magic Bonus": "145%",
+            "HP Regen": "1200",
+            "Enhanced Basic ATK Bonus": "435%"
+        },
+        "star_level_3": {
+            "Magic Bonus": "615%",
+            "HP Regen": "4000",
+            "Enhanced Basic ATK Bonus": "1950%"
+        }
+    },
+    "attributes": {
+        "star_level_1": {
+            "HP": "4263",
+            "Physical ATK": "230",
+            "Magic ATK": "230",
+            "Attack Speed": "0.65",
+            "Attack Range": "1",
+            "Initial Mana Cap": "100",
+            "Mana Cap": "125"
+        },
+        "star_level_2": {
+            "HP": "7673",
+            "Physical ATK": "345",
+            "Magic ATK": "345",
+            "Attack Speed": "0.65",
+            "Attack Range": "1",
+            "Initial Mana Cap": "100",
+            "Mana Cap": "125"
+        },
+        "star_level_3": {
+            "HP": "22168",
+            "Physical ATK": "520",
+            "Magic ATK": "520",
+            "Attack Speed": "0.65",
+            "Attack Range": "1",
+            "Initial Mana Cap": "100",
+            "Mana Cap": "125"
+        }
+    }
+}
