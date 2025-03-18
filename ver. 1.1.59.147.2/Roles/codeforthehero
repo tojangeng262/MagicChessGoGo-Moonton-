@@ -1,0 +1,94 @@
+import google.generativeai as genai
+import base64
+import os
+import json
+import re
+from google.colab import drive
+
+# ✅ Configure Google Gemini API
+API_KEY = "AIzaSyDXLSiG7fC-aBTnR74q733-NIo4U12Ovww"
+genai.configure(api_key=API_KEY)
+model = genai.GenerativeModel("gemini-2.0-flash")
+
+# Set folders
+folder_path = "/content/drive/MyDrive/Colab Notebooks/Roles"  # Change this to your folder
+output_folder = "/content/drive/MyDrive/Colab Notebooks/Roles/Output"
+os.makedirs(output_folder, exist_ok=True)
+
+# Define a simpler prompt for faction data
+prompt_text = (
+    "Extract all important details from this image and return the result in strict JSON format following this structure:\n"
+    "{\n"
+    '  "Roles": {"name": "Rolesname", "Description": "Roles description here."},\n'
+    '  "attributes": {"[numberof_synergy]": {...}, "[numberof_synergy]": {...}, "[numberof_synergy]": {...}}\n'
+    "}\n"
+    "Do not include any extra text outside the JSON structure. If some attributes are missing, omit them."
+)
+
+# List files in the folder
+files = os.listdir(folder_path)
+
+
+# Process images in the folder
+for filename in files:
+    if filename.lower().endswith((".jpg", ".png", ".jpeg")):
+        print(f"\nProcessing file: {filename}")
+        image_path = os.path.join(folder_path, filename)
+        with open(image_path, "rb") as img_file:
+            image_data = img_file.read()
+        image_base64 = base64.b64encode(image_data).decode("utf-8")
+
+        # Retry mechanism for transient errors
+        max_retries = 3
+        response = None
+        for attempt in range(max_retries):
+            try:
+                response = model.generate_content(
+                    contents=[
+                        {
+                            "role": "user",
+                            "parts": [
+                                {"text": prompt_text},
+                                {"inline_data": {"mime_type": "image/jpeg", "data": image_base64}}
+                            ]
+                        }
+                    ]
+                )
+                break  # Break if successful
+            except Exception as e:
+                print(f"Attempt {attempt+1} for {filename} failed: {e}")
+                time.sleep(2)
+                if attempt == max_retries - 1:
+                    print(f"❌ Failed to process {filename} after {max_retries} attempts.")
+                    response = None
+
+        if response is None:
+            continue  # Skip this file if still no response
+
+        # Debug: Print raw API response
+        #print(f"Raw response for {filename}:\n{response.text}")
+
+        try:
+            response_text = response.text.strip()
+            json_match = re.search(r'\{.*\}', response_text, re.DOTALL)
+            if json_match:
+                response_text = json_match.group(0)
+            json_data = json.loads(response_text)
+
+            # Use the "Roles" key to extract faction name for file naming
+            roles_name = json_data.get("Roles", {}).get("name", "").strip()
+            if not roles_name:
+                print(f"Roles name missing in JSON for {filename}. Using file name instead.")
+                roles_name = os.path.splitext(filename)[0]
+            roles_name = roles_name.replace(" ", "_").replace("/", "_")
+
+            output_path = os.path.join(output_folder, f"{roles_name}.json")
+            with open(output_path, "w", encoding="utf-8") as json_file:
+                json.dump(json_data, json_file, indent=4, ensure_ascii=False)
+            print(f"✅ Saved: {output_path}")
+
+        except json.JSONDecodeError:
+            print(f"❌ JSON Error: Gemini returned an invalid format for {filename}")
+            #print(f"🔍 Raw Response: {response.text}")
+
+print("\n🎉 All images processed!")
