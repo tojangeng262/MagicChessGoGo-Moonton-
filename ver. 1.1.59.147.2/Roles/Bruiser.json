@@ -1,0 +1,20 @@
+{
+    "Roles": {
+        "name": "Bruiser",
+        "Description": "Bruisers' Basic ATKs have a chance to launch the next one fast with higher damage. The enhanced Basic ATKs have a chance to launch an extra one."
+    },
+    "attributes": {
+        "2": {
+            "Probability": "20%",
+            "DMG Increase": "165%"
+        },
+        "4": {
+            "Probability": "40%",
+            "DMG Increase": "165%"
+        },
+        "6": {
+            "Probability": "60%",
+            "DMG Increase": "165%"
+        }
+    }
+}

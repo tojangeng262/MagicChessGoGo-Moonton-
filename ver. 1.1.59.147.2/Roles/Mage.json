@@ -1,0 +1,20 @@
+{
+    "Roles": {
+        "name": "Mage",
+        "Description": "Allied heroes increase their Magic ATK, and the Mages gain an extra Magic ATK."
+    },
+    "attributes": {
+        "2": {
+            "All allies": "10%",
+            "Additional": "50%"
+        },
+        "4": {
+            "All allies": "20%",
+            "Additional": "100%"
+        },
+        "6": {
+            "All allies": "30%",
+            "Additional": "125%"
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "Roles": {
+        "name": "Weapon Master",
+        "Description": "Allied Heroes gain Hybrid Lifesteal. Weapon Master gain additional Hybrid Lifesteal and extra Physical ATK when their HP drops below 70%."
+    },
+    "attributes": {
+        "2": {
+            "Hybrid Lifesteal": "5% for all allies",
+            "Extra Hybrid Lifesteal": "10%",
+            "Physical ATK": "50%"
+        },
+        "4": {
+            "Hybrid Lifesteal": "10% for all allies",
+            "Extra Hybrid Lifesteal": "20%",
+            "Physical ATK": "100%"
+        },
+        "6": {
+            "Hybrid Lifesteal": "15% for all allies",
+            "Extra Hybrid Lifesteal": "30%",
+            "Physical ATK": "180%"
+        }
+    }
+}

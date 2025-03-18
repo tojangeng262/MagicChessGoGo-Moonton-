@@ -1,0 +1,14 @@
+{
+    "Roles": {
+        "name": "Support",
+        "Description": "5s after the round begins, each allied hero gains a shield."
+    },
+    "attributes": {
+        "2": {
+            "Value": 600
+        },
+        "3": {
+            "Value": 1200
+        }
+    }
+}

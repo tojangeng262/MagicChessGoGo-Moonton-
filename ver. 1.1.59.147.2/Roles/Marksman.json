@@ -1,0 +1,20 @@
+{
+    "Roles": {
+        "name": "Marksman",
+        "Description": "Allied heroes gain ATK Speed, and Marksmen reduce the Physical DEF of enemies hit."
+    },
+    "attributes": {
+        "2": {
+            "ATK Speed": "5%",
+            "stacks": "6"
+        },
+        "4": {
+            "ATK Speed": "10%",
+            "stacks": "8"
+        },
+        "6": {
+            "ATK Speed": "15%",
+            "stacks": "12"
+        }
+    }
+}

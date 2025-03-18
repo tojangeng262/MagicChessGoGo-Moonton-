@@ -1,0 +1,20 @@
+{
+    "Roles": {
+        "name": "Swordsman",
+        "Description": "Allied heroes gain increased Hybrid ATK. Each time Swordsmen deal damage, they gain additional Hybrid ATK, stacking up to 8 times."
+    },
+    "attributes": {
+        "2": {
+            "All allies Hybrid ATK": "6%",
+            "Additional Hybrid ATK": "5%"
+        },
+        "4": {
+            "All allies Hybrid ATK": "12%",
+            "Additional Hybrid ATK": "10%"
+        },
+        "6": {
+            "All allies Hybrid ATK": "24%",
+            "Additional Hybrid ATK": "15%"
+        }
+    }
+}

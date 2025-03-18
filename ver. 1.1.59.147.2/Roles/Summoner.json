@@ -1,0 +1,14 @@
+{
+    "Roles": {
+        "name": "Summoner",
+        "Description": "Gain a random Summoner hero at the start of combat. (Can still give heroes already at 3-Stars.)"
+    },
+    "attributes": {
+        "2": {
+            "effect": "Get 1 Summoner(s)."
+        },
+        "4": {
+            "effect": "Increases the chance of acquiring high-cost Heroes, and grants 3 Gold."
+        }
+    }
+}

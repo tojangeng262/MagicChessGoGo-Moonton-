@@ -1,0 +1,17 @@
+{
+    "Roles": {
+        "name": "Stargazer",
+        "Description": "Allied heroes are blessed by the stars and restore Mana every second, and Stargazer restores extra Mana."
+    },
+    "attributes": {
+        "1": {
+            "Description": "2 for all allies, extra 6"
+        },
+        "2": {
+            "Description": "4 for all allies, extra 12"
+        },
+        "3": {
+            "Description": "8 for all allies, extra 16"
+        }
+    }
+}

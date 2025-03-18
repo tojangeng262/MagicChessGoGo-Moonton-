@@ -1,0 +1,17 @@
+{
+    "Roles": {
+        "name": "Defender",
+        "Description": "Allied heroes gain Hybrid DEF. Double bonus for the first 20s for Defenders, and extra Hybrid DEF for the rest of the battle."
+    },
+    "attributes": {
+        "2": {
+            "effect": "6 for all allies, extra 20 for Defenders"
+        },
+        "4": {
+            "effect": "12 for all allies, extra 30 for Defenders"
+        },
+        "6": {
+            "effect": "24 for all allies, extra 60 for Defenders"
+        }
+    }
+}

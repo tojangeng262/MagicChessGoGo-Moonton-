@@ -1,0 +1,20 @@
+{
+    "Roles": {
+        "name": "Dauntless",
+        "Description": "Allied Heroes gain Barriers. Dauntless Heroes gain additional shields at the start of battle."
+    },
+    "attributes": {
+        "2": {
+            "All allies": "5%",
+            "Additional": "20%"
+        },
+        "4": {
+            "All allies": "10%",
+            "Additional": "40%"
+        },
+        "6": {
+            "All allies": "20%",
+            "Additional": "80%"
+        }
+    }
+}
