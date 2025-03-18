@@ -1,0 +1,86 @@
+import google.generativeai as genai
+import base64
+import os
+import json
+import re
+from google.colab import drive
+
+# ✅ Configure Google Gemini API
+API_KEY = "MY_API_KEY"
+genai.configure(api_key=API_KEY)
+model = genai.GenerativeModel("gemini-2.0-flash")
+
+# ✅ Set folders
+folder_path = "folders/path/to/picture"  # Change this to your Google Drive folder
+output_folder = "folders/path/to/output/folder"
+os.makedirs(output_folder, exist_ok=True)
+
+# Define a simpler prompt (you can adjust details as needed)
+prompt_text = (
+    "Extract all important details from this image and return the result in strict JSON format following this structure:\n"
+    "{\n"
+    '  "hero": {"name": "HeroName", "cost": 2},\n'
+    '  "skill": {"name": "SkillName", "description": "Skill description here."},\n'
+    '  "skill attribute": {"star_level_1": {...}, "star_level_2": {...}, "star_level_3": {...}}\n'
+    '  "attributes": {"star_level_1": {...}, "star_level_2": {...}, "star_level_3": {...}}\n'
+    "}\n"
+    "Do not include any extra text outside the JSON structure. If some attributes are missing, omit them."
+)
+
+# Process images in the folder
+for filename in os.listdir(folder_path):
+    if filename.lower().endswith((".jpg", ".png", ".jpeg")):
+        image_path = os.path.join(folder_path, filename)
+        with open(image_path, "rb") as img_file:
+            image_data = img_file.read()
+        image_base64 = base64.b64encode(image_data).decode("utf-8")
+
+        # Retry mechanism for transient internal server errors
+        max_retries = 3
+        for attempt in range(max_retries):
+            try:
+                response = model.generate_content(
+                    contents=[
+                        {
+                            "role": "user",
+                            "parts": [
+                                {"text": prompt_text},
+                                {"inline_data": {"mime_type": "image/jpeg", "data": image_base64}}
+                            ]
+                        }
+                    ]
+                )
+                break  # Break out of retry loop if successful
+            except Exception as e:
+                print(f"Attempt {attempt+1} for {filename} failed: {e}")
+                time.sleep(2)  # Wait a bit before retrying
+                if attempt == max_retries - 1:
+                    print(f"❌ Failed to process {filename} after {max_retries} attempts.")
+                    response = None
+
+        if response is None:
+            continue  # Skip this image if it still fails
+
+        try:
+            response_text = response.text.strip()
+            json_match = re.search(r'\{.*\}', response_text, re.DOTALL)
+            if json_match:
+                response_text = json_match.group(0)
+            json_data = json.loads(response_text)
+
+            # Use the filename (without extension) as hero name if not provided
+            hero_name = json_data.get("hero", {}).get("name", "").strip()
+            if not hero_name:
+                hero_name = os.path.splitext(filename)[0]
+            hero_name = hero_name.replace(" ", "_").replace("/", "_")
+
+            output_path = os.path.join(output_folder, f"{hero_name}.json")
+            with open(output_path, "w", encoding="utf-8") as json_file:
+                json.dump(json_data, json_file, indent=4, ensure_ascii=False)
+            print(f"✅ Saved: {output_path}")
+
+        except json.JSONDecodeError:
+            print(f"❌ JSON Error: Gemini returned an invalid format for {filename}")
+            print(f"🔍 Raw Response: {response.text}")
+
+print("🎉 All images processed!")
