@@ -1,0 +1,20 @@
+{
+    "Faction": {
+        "name": "Nature Spirit",
+        "Description": "Nature Spirits share HP and gain extra Hybrid DEF."
+    },
+    "attributes": {
+        "[2]": {
+            "Physical DEF": "35",
+            "Magic DEF": "35"
+        },
+        "[4]": {
+            "Physical DEF": "80",
+            "Magic DEF": "80"
+        },
+        "[6]": {
+            "Physical DEF": "175",
+            "Magic DEF": "175"
+        }
+    }
+}

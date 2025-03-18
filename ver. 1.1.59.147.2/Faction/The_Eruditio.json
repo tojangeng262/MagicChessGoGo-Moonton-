@@ -1,0 +1,17 @@
+{
+    "Faction": {
+        "name": "The Eruditio",
+        "Description": "Accumulate points based on battle outcomes. You can open the vault once per match to receive rewards of different values based on points collected, along with exclusive Equipment."
+    },
+    "attributes": {
+        "2": {
+            "description": "1 for win, 2 for defeat."
+        },
+        "4": {
+            "description": "2 for win, 5 for defeat. Exclusive Equipment DMG +30%."
+        },
+        "6": {
+            "description": "5 for win, 10 for defeat. Recover 2 Commander HP each round. Exclusive Equipment DMG +80%."
+        }
+    }
+}

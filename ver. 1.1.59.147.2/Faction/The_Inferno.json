@@ -1,0 +1,17 @@
+{
+    "Faction": {
+        "name": "The Inferno",
+        "Description": "The Inferno Heroes apply an Inferno Mark to enemies when dealing or taking damage. The Inferno Mark deals continuous Physical DMG for 5s, stacking up to 10 times."
+    },
+    "attributes": {
+        "2": {
+            "Synergy": "[2] 10 per stack per second"
+        },
+        "4": {
+            "Synergy": "[4] 25 per stack per second"
+        },
+        "6": {
+            "Synergy": "[6] 50 per stack per second"
+        }
+    }
+}

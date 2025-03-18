@@ -1,0 +1,14 @@
+{
+    "Faction": {
+        "name": "Los Pecados",
+        "Description": "Get a wide range of unique Los Pecados equipment. Los Pecados heroes deal extra damage."
+    },
+    "attributes": {
+        "2": {
+            "effect": "Equip 1 Los Pecados equipment, and deal extra 8% damage."
+        },
+        "3": {
+            "effect": "Equip 1 more Los Pecados equipment, and deal extra 16% damage."
+        }
+    }
+}

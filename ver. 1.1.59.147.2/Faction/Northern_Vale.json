@@ -1,0 +1,17 @@
+{
+    "Faction": {
+        "name": "Northern Vale",
+        "Description": "Northern Vale Heroes apply a Winter Mark when dealing damage to enemies. After 5 stacks, the next damage will detonate the ice crystal and deal True DMG."
+    },
+    "attributes": {
+        "2": {
+            "damage": "250"
+        },
+        "4": {
+            "damage": "650"
+        },
+        "6": {
+            "damage": "1150"
+        }
+    }
+}

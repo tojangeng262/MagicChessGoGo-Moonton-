@@ -1,0 +1,17 @@
+{
+    "Faction": {
+        "name": "Dragon Altar",
+        "Description": "Generate special tiles on the battlefield. Heroes on these tiles gain enhancement effects, with Dragon Altar Heroes receiving 300% of the enhancement."
+    },
+    "attributes": {
+        "2": {
+            "effect": "8% Extra DMG, 8 Hybrid DEF, generate 4 special tiles on the field."
+        },
+        "4": {
+            "effect": "12% Extra DMG, 12 Hybrid DEF, generate 6 special tiles on the field."
+        },
+        "6": {
+            "effect": "16% Extra DMG, 16 Hybrid DEF, all tiles on your Chessboard become special tiles."
+        }
+    }
+}

@@ -1,0 +1,14 @@
+{
+    "Faction": {
+        "name": "Vonetis Sea",
+        "Description": "All Heroes deal increased damage based on the number of active Synergies. At 8 active Synergies, they also gain Hybrid Lifesteal."
+    },
+    "attributes": {
+        "2": {
+            "description": "Each active Synergy increases damage by 1%. Gain 8% Hybrid Lifesteal when 8 Synergies are active."
+        },
+        "3": {
+            "description": "Each active Synergy increases damage by 2%. Gain 12% Hybrid Lifesteal when 8 Synergies are active."
+        }
+    }
+}

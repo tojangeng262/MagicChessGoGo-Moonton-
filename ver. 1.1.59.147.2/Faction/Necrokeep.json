@@ -1,0 +1,12 @@
+{
+    "Faction": {
+        "name": "Necrokeep",
+        "Description": "The first time Necrokeep heroes take lethal damage each battle, they will immediately recover HP and Mana."
+    },
+    "attributes": {
+        "3": {
+            "HP": "60%",
+            "Mana": "100%"
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "Faction": {
+        "name": "Astro Power",
+        "Description": "Astro Power Heroes deal extra damage. The Astro Power Hero with the most equipment gains Damage Increase and Hybrid Lifesteal."
+    },
+    "attributes": {
+        "2": {
+            "Extra DMG": "10%",
+            "DMG Increase": "25%",
+            "Hybrid Lifesteal": "5%"
+        },
+        "4": {
+            "Extra DMG": "20%",
+            "DMG Increase": "50%",
+            "Hybrid Lifesteal": "10%"
+        },
+        "6": {
+            "Extra DMG": "30%",
+            "DMG Increase": "100%",
+            "Hybrid Lifesteal": "20%"
+        }
+    }
+}

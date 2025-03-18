@@ -1,0 +1,20 @@
+{
+    "Faction": {
+        "name": "Moniyan Plains",
+        "Description": "Moniyan Empire heroes gain increased ATK Speed, and each time they slay an enemy hero, they gain extra Hybrid ATK for 6s."
+    },
+    "attributes": {
+        "2": {
+            "ATK Speed": "25%",
+            "Hybrid ATK": "20%"
+        },
+        "4": {
+            "ATK Speed": "50%",
+            "Hybrid ATK": "30%"
+        },
+        "6": {
+            "ATK Speed": "80%",
+            "Hybrid ATK": "50%"
+        }
+    }
+}
