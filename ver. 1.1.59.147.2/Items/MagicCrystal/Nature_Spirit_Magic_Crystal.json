@@ -1,0 +1,9 @@
+{
+    "Item": {
+        "name": "Nature Spirit Magic Crystal",
+        "Description": "Obtain Nature Spirit Synergy."
+    },
+    "Unique_attributes": {
+        "Unique Passive - Nature": "Equip on a hero to grant Nature Spirit Synergy."
+    }
+}

@@ -1,0 +1,9 @@
+{
+    "Item": {
+        "name": "Dauntless Magic Crystal",
+        "Description": "Obtain Dauntless Synergy."
+    },
+    "Unique_attributes": {
+        "Unique Passive - Fearless": "Equip on a hero to grant Dauntless Synergy."
+    }
+}

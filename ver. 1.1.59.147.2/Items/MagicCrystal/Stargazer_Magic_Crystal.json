@@ -1,0 +1,9 @@
+{
+    "Item": {
+        "name": "Stargazer Magic Crystal",
+        "Description": "Obtain Stargazer Synergy."
+    },
+    "Unique_attributes": {
+        "Unique Passive - Universe": "Equip on a hero to grant Stargazer Synergy."
+    }
+}

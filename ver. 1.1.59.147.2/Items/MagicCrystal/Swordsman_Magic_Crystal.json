@@ -1,0 +1,9 @@
+{
+    "Item": {
+        "name": "Swordsman Magic Crystal",
+        "Description": "Obtain Swordsman Synergy."
+    },
+    "Unique_attributes": {
+        "Unique Passive - Conceal": "Equip on a hero to grant Swordsman Synergy."
+    }
+}

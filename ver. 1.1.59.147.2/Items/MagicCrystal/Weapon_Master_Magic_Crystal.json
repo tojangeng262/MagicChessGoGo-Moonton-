@@ -1,0 +1,9 @@
+{
+    "Item": {
+        "name": "Weapon Master Magic Crystal",
+        "Description": "Obtain Weapon Master Synergy."
+    },
+    "Unique_attributes": {
+        "Unique Passive - Frenzy": "Equip on a hero to grant Weapon Master Synergy."
+    }
+}

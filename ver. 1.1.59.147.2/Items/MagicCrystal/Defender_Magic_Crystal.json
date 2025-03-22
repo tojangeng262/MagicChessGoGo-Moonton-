@@ -1,0 +1,9 @@
+{
+    "Item": {
+        "name": "Defender Magic Crystal",
+        "Description": "Obtain Defender Synergy."
+    },
+    "Unique_attributes": {
+        "Fortitude": "Equip on a hero to grant Defender Synergy."
+    }
+}

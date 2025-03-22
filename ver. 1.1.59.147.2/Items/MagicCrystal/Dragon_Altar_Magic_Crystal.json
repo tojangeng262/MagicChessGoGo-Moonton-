@@ -1,0 +1,9 @@
+{
+    "Item": {
+        "name": "Dragon Altar Magic Crystal",
+        "Description": "Obtain Dragon Altar Synergy."
+    },
+    "Unique_attributes": {
+        "Unique Passive - Dragon": "Equip on a hero to grant Dragon Altar Synergy."
+    }
+}

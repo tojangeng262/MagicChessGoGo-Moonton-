@@ -1,0 +1,9 @@
+{
+    "Item": {
+        "name": "Go Go Magic Crystal",
+        "Description": "Capacity +1"
+    },
+    "Unique_attributes": {
+        "Unique Passive - Expansion": "Increases Capacity by 1"
+    }
+}

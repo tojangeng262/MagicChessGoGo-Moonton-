@@ -1,0 +1,9 @@
+{
+    "Item": {
+        "name": "Mage Magic Crystal",
+        "Description": "Obtain Mage Synergy."
+    },
+    "Unique_attributes": {
+        "Mysticism": "Equip on a hero to grant Mage Synergy."
+    }
+}

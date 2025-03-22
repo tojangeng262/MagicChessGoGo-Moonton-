@@ -1,0 +1,9 @@
+{
+    "Item": {
+        "name": "Inferno Magic Crystal",
+        "Description": "Obtain Inferno Synergy."
+    },
+    "Unique_attributes": {
+        "Abhorrence": "Equip on a hero to grant Inferno Synergy."
+    }
+}

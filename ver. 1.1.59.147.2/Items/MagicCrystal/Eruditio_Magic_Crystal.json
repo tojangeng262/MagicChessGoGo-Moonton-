@@ -1,0 +1,9 @@
+{
+    "Item": {
+        "name": "Eruditio Magic Crystal",
+        "Description": "Obtain Eruditio Synergy."
+    },
+    "Unique_attributes": {
+        "Unique Passive - Diligence": "Equip on a hero to grant Eruditio Synergy."
+    }
+}

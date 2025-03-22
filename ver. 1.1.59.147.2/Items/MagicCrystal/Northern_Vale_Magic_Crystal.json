@@ -1,0 +1,9 @@
+{
+    "Item": {
+        "name": "Northern Vale Magic Crystal",
+        "Description": "Obtain Northern Vale Synergy."
+    },
+    "Unique_attributes": {
+        "Unique Passive - Winter": "Equip on a hero to grant Northern Vale Synergy."
+    }
+}

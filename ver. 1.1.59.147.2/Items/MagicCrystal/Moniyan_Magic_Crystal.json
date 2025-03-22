@@ -1,0 +1,9 @@
+{
+    "Item": {
+        "name": "Moniyan Magic Crystal",
+        "Description": "Obtain Moniyan Synergy."
+    },
+    "Unique_attributes": {
+        "Unique Passive - Expedition": "Equip on a hero to grant Moniyan Synergy."
+    }
+}

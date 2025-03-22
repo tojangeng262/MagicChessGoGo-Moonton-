@@ -1,0 +1,9 @@
+{
+    "Item": {
+        "name": "Los Pecados Magic Crystal",
+        "Description": "Obtain Los Pecados Synergy."
+    },
+    "Unique_attributes": {
+        "Unique Passive - Unruly": "Equip on a hero to grant Los Pecados Synergy."
+    }
+}

@@ -1,0 +1,9 @@
+{
+    "Item": {
+        "name": "Marksman Magic Crystal",
+        "Description": "Obtain Marksman Synergy."
+    },
+    "Unique_attributes": {
+        "Unique Passive - Precise": "Equip on a hero to grant Marksman Synergy."
+    }
+}

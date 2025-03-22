@@ -1,0 +1,9 @@
+{
+    "Item": {
+        "name": "Astro Power Magic Crystal",
+        "Description": "Obtain Astro Power Synergy."
+    },
+    "Unique_attributes": {
+        "Unique Passive - Astro": "Equip on a hero to grant Astro Power Synergy."
+    }
+}
