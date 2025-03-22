@@ -1,0 +1,11 @@
+{
+    "Item": {
+        "name": "Aegis",
+        "Description": "Provide shields to allies"
+    },
+    "Unique_attributes": {
+        "Unique Passive - Aegis": {
+            "explanation": "Grants a Shield equal to 25% HP that lasts 25s to the hero and the allied heroes within 1 tile to the left and right when the battle begins."
+        }
+    }
+}

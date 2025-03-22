@@ -1,0 +1,9 @@
+{
+    "Item": {
+        "name": "Revitalize",
+        "Description": "Restore HP at Low HP"
+    },
+    "Unique_attributes": {
+        "Unique Passive - Revitalize": "Summons a Healing Spring for 5s when HP is below 50%, restoring 6% HP every 1s for allies within the area."
+    }
+}

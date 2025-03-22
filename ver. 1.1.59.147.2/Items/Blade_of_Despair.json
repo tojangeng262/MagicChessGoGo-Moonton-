@@ -1,0 +1,16 @@
+{
+    "Item": {
+        "name": "Blade of Despair",
+        "Description": "Highest Physical Attack."
+    },
+    "attributes": {
+        "Physical ATK": {
+            "value": "+30%"
+        }
+    },
+    "Unique_attributes": {
+        "Unique Passive - Despair": {
+            "explanation": "Dealing damage to targets with HP below 50% deals an additional 30% damage for 2s. (Applies before damage is calculated.)"
+        }
+    }
+}

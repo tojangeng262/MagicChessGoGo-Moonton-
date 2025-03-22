@@ -1,0 +1,19 @@
+{
+    "Item": {
+        "name": "War Axe",
+        "Description": "Spell Vamp."
+    },
+    "attributes": {
+        "Physical ATK": {
+            "value": "+10%"
+        },
+        "Spell Vamp": {
+            "value": "+20%"
+        }
+    },
+    "Unique_attributes": {
+        "Fighting Spirit": {
+            "explanation": "When dealing damage, increase 6 Hybrid DEF for 3s, stacking up to 5 times. At max stacks, deal 15% extra damage."
+        }
+    }
+}

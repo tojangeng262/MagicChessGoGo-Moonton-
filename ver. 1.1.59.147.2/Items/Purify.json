@@ -1,0 +1,16 @@
+{
+    "Item": {
+        "name": "Purify",
+        "Description": "Control Immunity."
+    },
+    "attributes": {
+        "Attack Speed": {
+            "value": "+15%"
+        }
+    },
+    "Unique_attributes": {
+        "Unique Passive - Purify": {
+            "explanation": "Gains control and displacement immunity for the first 30s after battle begins."
+        }
+    }
+}

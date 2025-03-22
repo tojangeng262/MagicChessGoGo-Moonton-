@@ -1,0 +1,16 @@
+{
+    "Item": {
+        "name": "Glowing Wand",
+        "Description": "Skill burn."
+    },
+    "attributes": {
+        "Magic ATK": {
+            "value": "+25%"
+        }
+    },
+    "Unique_attributes": {
+        "Unique Passive - Scorch": {
+            "explanation": "When a skill deals damage, it also burns the target for 3s, dealing 2.5% of their Max HP as Magic DMG (minimum of 10 damage). Skill also reduces the target's healing received by 50% for 3s."
+        }
+    }
+}

@@ -1,0 +1,12 @@
+{
+  "Item": {
+    "name": "Knowledge Crystal",
+    "Description": "Exclusively for Eruditio Synergy"
+  },
+  "attributes": {
+    "Hybrid ATK": "+10%"
+  },
+  "Unique_attributes": {
+    "Scholar's Advice": "The carrier deals an additional 0/30%/80% damage, based on the Eruditio Synergy. (Exclusive to Eruditio Synergy.)"
+  }
+}

@@ -1,0 +1,16 @@
+{
+    "Item": {
+        "name": "Oracle",
+        "Description": "Group Defense."
+    },
+    "attributes": {
+        "Hybrid DEF": {
+            "value": "+25"
+        }
+    },
+    "Unique_attributes": {
+        "Unique Passive - Magic Resist": {
+            "explanation": "When battle starts, allied Heroes in the same row gain 25 Hybrid DEF."
+        }
+    }
+}

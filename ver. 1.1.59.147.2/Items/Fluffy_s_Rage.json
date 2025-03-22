@@ -1,0 +1,11 @@
+{
+    "Item": {
+        "name": "Fluffy's Rage",
+        "Description": "Summon Explosive Fluffy"
+    },
+    "Unique_attributes": {
+        "Unique Passive": {
+            "explanation": "The carrier leaves a Fluffy behind each time their location changes. The Fluffy will explode and stun enemy Heroes in the same row and column."
+        }
+    }
+}

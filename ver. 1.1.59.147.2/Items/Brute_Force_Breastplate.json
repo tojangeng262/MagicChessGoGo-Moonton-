@@ -1,0 +1,19 @@
+{
+    "Item": {
+        "name": "Brute Force Breastplate",
+        "Description": "Control Resistance."
+    },
+    "attributes": {
+        "Hybrid DEF": {
+            "+25 Hybrid DEF": true
+        }
+    },
+    "Unique_attributes": {
+        "Brute Force": {
+            "explanation": "When dealing damage, increase Hybrid ATK by 6% for 3s, stacking up to 5 times."
+        },
+        "Max Stacks": {
+            "explanation": "At max stacks, increase 50% Control Duration resistance."
+        }
+    }
+}

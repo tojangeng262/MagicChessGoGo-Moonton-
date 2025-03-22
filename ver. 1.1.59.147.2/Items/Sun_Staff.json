@@ -1,0 +1,19 @@
+{
+    "Item": {
+        "name": "Sun Staff",
+        "Description": "AoE blast."
+    },
+    "attributes": {
+        "Magic ATK": {
+            "value": "+20%"
+        }
+    },
+    "Unique_attributes": {
+        "Detonation": {
+            "explanation": "Skill hits create an explosion that deals damage equal to 8% of their Max HP to the target and enemies within 1 tile around, with a cooldown of 2s."
+        },
+        "Synergy": {
+            "explanation": "Exclusive to Los Pecados Synergy."
+        }
+    }
+}

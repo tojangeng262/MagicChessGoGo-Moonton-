@@ -1,0 +1,16 @@
+{
+    "Item": {
+        "name": "Immortality",
+        "Description": "Resurrection."
+    },
+    "attributes": {
+        "Hybrid DEF": {
+            "value": "+30"
+        }
+    },
+    "Unique_attributes": {
+        "Immortal": {
+            "explanation": "Resurrect after 2s upon death and gets 40% HP."
+        }
+    }
+}

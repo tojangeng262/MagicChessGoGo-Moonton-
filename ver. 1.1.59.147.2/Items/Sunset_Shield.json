@@ -1,0 +1,22 @@
+{
+    "Item": {
+        "name": "Sunset Shield",
+        "Description": "Sustained Damage."
+    },
+    "attributes": {
+        "Max HP": {
+            "value": "+10%"
+        },
+        "Hybrid DEF": {
+            "value": "+12"
+        }
+    },
+    "Unique_attributes": {
+        "Unique Passive - Glare": {
+            "explanation": "After the battle begins, the carrier deals damage equal to 1% of their Max HP per second to enemies 1 tile around them."
+        },
+        "Exclusive Synergy": {
+            "explanation": "Los Pecados Synergy"
+        }
+    }
+}

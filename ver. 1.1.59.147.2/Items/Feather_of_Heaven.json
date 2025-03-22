@@ -1,0 +1,19 @@
+{
+    "Item": {
+        "name": "Feather of Heaven",
+        "Description": "Enhance Basic ATK."
+    },
+    "attributes": {
+        "Magic ATK": {
+            "value": "+20%"
+        },
+        "Lifesteal": {
+            "value": "+20%"
+        }
+    },
+    "Unique_attributes": {
+        "Unique Passive - Affliction": {
+            "explanation": "Each Basic ATK deals (+30% Total Magic ATK) extra Magic Damage."
+        }
+    }
+}

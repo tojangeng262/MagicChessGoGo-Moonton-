@@ -1,0 +1,16 @@
+{
+    "Item": {
+        "name": "Enchanted Talisman",
+        "Description": "Rapid Skill Cast."
+    },
+    "attributes": {
+        "Magic ATK": {
+            "value": "+25%"
+        }
+    },
+    "Unique_attributes": {
+        "Recharge": {
+            "explanation": "At the beginning of the battle, restores 65% Mana immediately."
+        }
+    }
+}

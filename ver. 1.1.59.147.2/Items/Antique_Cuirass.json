@@ -1,0 +1,17 @@
+{
+    "Item": {
+        "name": "Antique Cuirass",
+        "Description": "Reduce target's Hybrid ATK."
+    },
+    "attributes": {
+        "Max HP": {
+            "+15% Max HP": null
+        },
+        "Damage Reduction": {
+            "+10% Damage Reduction": null
+        }
+    },
+    "Unique_attributes": {
+        "Unique Passive - Deter": "When damaged by an enemy, reduce their Hybrid ATK by 5% for 3s. This effect stacks up to 5 times."
+    }
+}

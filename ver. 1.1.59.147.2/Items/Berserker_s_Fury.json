@@ -1,0 +1,17 @@
+{
+    "Item": {
+        "name": "Berserker's Fury",
+        "Description": "Increase Crit"
+    },
+    "attributes": {
+        "Physical ATK": {
+            "value": "+15%"
+        },
+        "Crit Chance": {
+            "value": "+25%"
+        },
+        "Crit Damage": {
+            "value": "+40%"
+        }
+    }
+}

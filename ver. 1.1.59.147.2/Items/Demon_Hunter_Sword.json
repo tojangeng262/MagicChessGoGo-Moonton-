@@ -1,0 +1,16 @@
+{
+    "Item": {
+        "name": "Demon Hunter Sword",
+        "Description": "Tank Killer"
+    },
+    "attributes": {
+        "Attack Speed": {
+            "Value": "+10%"
+        }
+    },
+    "Unique_attributes": {
+        "Engulf": {
+            "explanation": "Basic ATK will deal extra Physical DMG equal to 3% of the target's max HP."
+        }
+    }
+}

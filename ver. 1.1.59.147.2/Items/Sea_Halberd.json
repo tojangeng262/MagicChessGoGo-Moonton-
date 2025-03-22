@@ -1,0 +1,19 @@
+{
+    "Item": {
+        "name": "Sea Halberd",
+        "Description": "Counter Lifesteal."
+    },
+    "attributes": {
+        "Physical ATK": {
+            "value": "+15%"
+        }
+    },
+    "Unique_attributes": {
+        "Physical Penetration": {
+            "explanation": "+40%"
+        },
+        "Lifebane": {
+            "explanation": "Dealing damage to the target reduces their HP Regen effect by 60% for 5s."
+        }
+    }
+}

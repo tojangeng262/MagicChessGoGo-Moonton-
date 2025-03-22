@@ -1,0 +1,16 @@
+{
+    "Item": {
+        "name": "Purple Buff",
+        "Description": "Additional Mana Regen"
+    },
+    "attributes": {
+        "Hybrid ATK": {
+            "value": "+15%"
+        }
+    },
+    "Unique_attributes": {
+        "Elemental Power": {
+            "explanation": "Gain 8 Mana after casting a Skill."
+        }
+    }
+}

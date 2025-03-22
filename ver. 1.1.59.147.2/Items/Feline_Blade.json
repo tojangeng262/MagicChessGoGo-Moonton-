@@ -1,0 +1,22 @@
+{
+    "Item": {
+        "name": "Feline Blade",
+        "Description": "Single Control"
+    },
+    "attributes": {
+        "Hybrid ATK": {
+            "+10%": true
+        },
+        "Max HP": {
+            "+10%": true
+        }
+    },
+    "Unique_attributes": {
+        "Witchcraft_start": {
+            "explanation": "When the battle starts, turn the enemy hero with the highest star level into a Leonin for 4s."
+        },
+        "Witchcraft_basic_ATKs": {
+            "explanation": "When Basic ATKs deal damage, the target will be turned into a Leonin for 2s. This effect has a 12s cooldown."
+        }
+    }
+}

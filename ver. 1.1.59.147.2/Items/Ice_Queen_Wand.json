@@ -1,0 +1,19 @@
+{
+    "Item": {
+        "name": "Ice Queen Wand",
+        "Description": "Spell Vamp"
+    },
+    "attributes": {
+        "Magic ATK": {
+            "value": "+20%"
+        },
+        "Spell Vamp": {
+            "value": "+20%"
+        }
+    },
+    "Unique_attributes": {
+        "Unique Passive - Ice Bound": {
+            "explanation": "After dealing skill damage, reduces target's ATK Speed by 15% for 5s."
+        }
+    }
+}

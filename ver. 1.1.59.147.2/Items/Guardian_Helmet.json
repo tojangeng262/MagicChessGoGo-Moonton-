@@ -1,0 +1,16 @@
+{
+    "Item": {
+        "name": "Guardian Helmet",
+        "Description": "High base HP"
+    },
+    "attributes": {
+        "Max HP": {
+            "value": "+20%"
+        }
+    },
+    "Unique_attributes": {
+        "Recovery": {
+            "explanation": "Regens HP equal to 2% of self's max HP each second."
+        }
+    }
+}

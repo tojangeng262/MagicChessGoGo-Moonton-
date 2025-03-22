@@ -1,0 +1,16 @@
+{
+    "Item": {
+        "name": "Golden Staff",
+        "Description": "Extremely high Attack Speed."
+    },
+    "attributes": {
+        "Attack Speed": {
+            "value": "+25%"
+        }
+    },
+    "Unique_attributes": {
+        "Impulsive": {
+            "explanation": "Basic Attacks increase ATK Speed by 1.5%, stacking up to 50 time(s)."
+        }
+    }
+}

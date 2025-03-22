@@ -1,0 +1,16 @@
+{
+    "Item": {
+        "name": "Blade Armor",
+        "Description": "Physical DMG Bounce"
+    },
+    "attributes": {
+        "physical_def": {
+            "value": 60
+        }
+    },
+    "Unique_attributes": {
+        "Unique Passive - Vengeance": {
+            "explanation": "When taking a Basic ATK, deals 30% of received damage as physical damage to the attacker."
+        }
+    }
+}

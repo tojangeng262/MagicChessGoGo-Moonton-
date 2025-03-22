@@ -1,0 +1,16 @@
+{
+    "Item": {
+        "name": "Holy Crystal",
+        "Description": "Highest Magic damage."
+    },
+    "attributes": {
+        "Magic ATK": {
+            "value": "+25%"
+        }
+    },
+    "Unique_attributes": {
+        "Unique Passive - Mystery": {
+            "explanation": "Increases Magic DMG dealt by 25%."
+        }
+    }
+}

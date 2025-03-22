@@ -1,0 +1,14 @@
+{
+    "Item": {
+        "name": "Claude's Theft Device",
+        "Description": "Copy Equipment."
+    },
+    "Unique_attributes": {
+        "Neat Pick": {
+            "explanation": "When battle starts, copy 2 pieces of random Equipment from the Equipment pool."
+        },
+        "Equipment Count": {
+            "explanation": "Counts as equipping 2 pieces of Equipment."
+        }
+    }
+}

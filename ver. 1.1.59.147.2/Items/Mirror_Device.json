@@ -1,0 +1,9 @@
+{
+    "Item": {
+        "name": "Mirror Device",
+        "Description": "Copy Hero."
+    },
+    "Unique_attributes": {
+        "Unique Passive - Mirror": "Clone an allied hero."
+    }
+}

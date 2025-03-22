@@ -1,0 +1,9 @@
+{
+    "Item": {
+        "name": "Inspire",
+        "Description": "Increase Attack Speed"
+    },
+    "Unique_attributes": {
+        "Unique Passive - Inspire": "Increases Attack Speed by 20/25/30/40% (increases when stage progresses)."
+    }
+}

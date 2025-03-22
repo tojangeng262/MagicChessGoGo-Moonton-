@@ -1,0 +1,22 @@
+{
+    "Item": {
+        "name": "Hunting Revolver",
+        "Description": "Basic ATK blast."
+    },
+    "attributes": {
+        "Attack Speed": {
+            "value": "+20%"
+        },
+        "Physical ATK": {
+            "value": "+20%"
+        }
+    },
+    "Unique_attributes": {
+        "Firebombing": {
+            "explanation": "Basic ATK has a 20% chance to deal damage equal to 20% Physical ATK to the target and enemies within 1 tile."
+        },
+        "Exclusively for": {
+            "explanation": "Los Pecados Synergy"
+        }
+    }
+}

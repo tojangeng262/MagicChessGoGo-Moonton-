@@ -1,0 +1,19 @@
+{
+    "Item": {
+        "name": "Dominance Ice",
+        "Description": "Tank Mana regeneration."
+    },
+    "attributes": {
+        "Magic DEF": {
+            "value": "+60"
+        },
+        "Max HP": {
+            "value": "+15%"
+        }
+    },
+    "Unique_attributes": {
+        "Arctic Cold": {
+            "explanation": "Reduces nearby enemy heroes' Attack Speed by 20%. Increases Mana Regen by 25% when taking damage."
+        }
+    }
+}

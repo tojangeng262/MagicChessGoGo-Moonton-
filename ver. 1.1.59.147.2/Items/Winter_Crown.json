@@ -1,0 +1,19 @@
+{
+    "Item": {
+        "name": "Winter Crown",
+        "Description": "Become invincible at low HP."
+    },
+    "attributes": {
+        "Hybrid ATK": {
+            "value": "+20%"
+        },
+        "Max HP": {
+            "value": "+15%"
+        }
+    },
+    "Unique_attributes": {
+        "Frost": {
+            "explanation": "When HP drops below 25% or when taking lethal damage, becomes frozen and recover 25% Max HP and 15% Mana over 1s."
+        }
+    }
+}

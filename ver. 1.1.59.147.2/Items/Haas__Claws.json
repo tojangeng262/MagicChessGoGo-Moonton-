@@ -1,0 +1,19 @@
+{
+    "Item": {
+        "name": "Haas' Claws",
+        "Description": "Lifesteal."
+    },
+    "attributes": {
+        "physical_atk": {
+            "value": "+20%"
+        },
+        "crit_chance": {
+            "value": "+20%"
+        }
+    },
+    "Unique_attributes": {
+        "lifesteal": {
+            "explanation": "+20% Lifesteal"
+        }
+    }
+}

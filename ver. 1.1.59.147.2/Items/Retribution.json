@@ -1,0 +1,17 @@
+{
+    "Item": {
+        "name": "Retribution",
+        "Description": "Damage Increase."
+    },
+    "Unique_attributes": {
+        "Unique Passive - Retribution": {
+            "explanation": "Gain permanent upgrades based on the number of Heroes slain"
+        },
+        "Kill 3 Heroes": {
+            "explanation": "Gain 15% Magic ATK at the start of battle."
+        },
+        "Kill 8 Heroes": {
+            "explanation": "Increase damage dealt by 20%."
+        }
+    }
+}
