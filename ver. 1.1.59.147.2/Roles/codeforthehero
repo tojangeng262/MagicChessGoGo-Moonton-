@@ -6,7 +6,7 @@ import re
 from google.colab import drive
 
 # ✅ Configure Google Gemini API
-API_KEY = "AIzaSyDXLSiG7fC-aBTnR74q733-NIo4U12Ovww"
+API_KEY = "API KEY"
 genai.configure(api_key=API_KEY)
 model = genai.GenerativeModel("gemini-2.0-flash")
 
